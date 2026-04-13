@@ -13,7 +13,10 @@
   <nav class="navbar">
     <div class="container nav-container">
       <div class="nav-brand">Adetoro Adetayo</div>
-      <ul class="nav-links">
+      <button id="mobile-menu-btn" class="hamburger" aria-label="Menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#" id="info-btn">Info</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -32,7 +35,7 @@
           <h1>Driving Impact through Sustainability Research, Advisory, and Strategic Communications.</h1>
           <p class="subtitle">I'm a sustainability and impact strategist helping organizations navigate environmental and social challenges with clarity and rigor. I work at the intersection of research, advisory, and communications to turn insight into real-world impact.</p>
           <div class="hero-actions">
-            <a href="#projects" class="btn primary">Learn more</a>
+            <a href="#" id="learn-more-btn" class="btn primary">Learn more</a>
             <a href="mailto:hello@example.com" class="btn secondary">Contact me</a>
           </div>
         </div>
@@ -46,9 +49,110 @@
       <div class="section-header">
         <h2>Featured Work</h2>
         <p>Research, strategy, and communications work across energy, policy, and sustainability in Africa and beyond.</p>
+        <div class="filter-pills">
+          <button class="filter-pill active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="advisory">Advisory</button>
+          <button class="filter-pill" data-filter="communications">Communications</button>
+          <button class="filter-pill" data-filter="research">Research</button>
+        </div>
       </div>
-      <div class="grid">
-        <div class="card">
+      <div class="grid" id="projects-grid">
+        <!-- Advisory -->
+        <div class="card" data-category="advisory">
+          <img src="https://picsum.photos/seed/culerson/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Culerson</span>
+            <h3>Culerson Energy Futures Project</h3>
+            <p>Advising on sustainable energy transitions through research and communications strategy.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="advisory">
+          <img src="https://picsum.photos/seed/susdata/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Susbridge & Susinsight</span>
+            <h3>Susdata</h3>
+            <p>Building a data hub to track and interpret sustainability performance across Africa's key sectors.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="advisory">
+          <img src="https://picsum.photos/seed/kumat/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Kumat Services</span>
+            <h3>Kumat Services – Sustainable Energy Research</h3>
+            <p>Delivered technical research and strategic insights on clean energy, battery safety, and alternative fuels.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="advisory">
+          <img src="https://picsum.photos/seed/arinitiative/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">The AR Initiative</span>
+            <h3>The AR Initiative – ESG & Impact Consulting</h3>
+            <p>Supported African startups with ESG research, sustainability reporting, and impact assessments.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Communications -->
+        <div class="card" data-category="communications">
+          <img src="https://picsum.photos/seed/susinsight/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Susbridge</span>
+            <h3>Susinsight</h3>
+            <p>A research-driven media platform advancing sustainability understanding across Africa.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="communications">
+          <img src="https://picsum.photos/seed/newsletter/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Susinsight</span>
+            <h3>Susinsight Newsletter</h3>
+            <p>Co-creating an editorial strategy that makes sustainability accessible and people-centered.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="communications">
+          <img src="https://picsum.photos/seed/trends/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Susinsight</span>
+            <h3>Top Sustainability Trends to Watch in Africa for 2025</h3>
+            <p>Analyzing 20+ emerging shifts shaping Africa's sustainability landscape.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="communications">
+          <img src="https://picsum.photos/seed/susgraph/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Susinsight</span>
+            <h3>Susgraph</h3>
+            <p>Transforming sustainability metrics into engaging visual storytelling and infographics.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="communications">
+          <img src="https://picsum.photos/seed/editorial/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Susinsight</span>
+            <h3>Susinsight Editorial Images</h3>
+            <p>Co-directing visual frameworks that enhance clarity and impact in research-based storytelling.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="communications">
+          <img src="https://picsum.photos/seed/oneacre/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Personal</span>
+            <h3>One Acre Fund Impact Assessment</h3>
+            <p>Impact assessment and communications project.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Research -->
+        <div class="card" data-category="research">
           <img src="https://picsum.photos/seed/water/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
           <div class="card-content">
             <span class="tag">Susbridge</span>
@@ -57,34 +161,7 @@
             <a href="#" class="card-link">View Project &rarr;</a>
           </div>
         </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/media/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
-          <div class="card-content">
-            <span class="tag">Susbridge</span>
-            <h3>Susinsight</h3>
-            <p>A research-driven media platform advancing sustainability understanding across Africa.</p>
-            <a href="#" class="card-link">View Project &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/energy/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
-          <div class="card-content">
-            <span class="tag">Culerson</span>
-            <h3>Culerson Energy Futures Project</h3>
-            <p>Advising on sustainable energy transitions through research and communications strategy.</p>
-            <a href="#" class="card-link">View Project &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/battery/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
-          <div class="card-content">
-            <span class="tag">Kumat Services</span>
-            <h3>Kumat Services – Sustainable Energy Research</h3>
-            <p>Delivered technical research and strategic insights on clean energy, battery safety, and alternative fuels.</p>
-            <a href="#" class="card-link">View Project &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
+        <div class="card" data-category="research">
           <img src="https://picsum.photos/seed/transport/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
           <div class="card-content">
             <span class="tag">University of Bath</span>
@@ -93,63 +170,231 @@
             <a href="#" class="card-link">View Project &rarr;</a>
           </div>
         </div>
+        <div class="card" data-category="research">
+          <img src="https://picsum.photos/seed/resin/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">University of Bath</span>
+            <h3>Innovative Continuous Regeneration of Phenolic Resin Carbons for Water Treatment</h3>
+            <p>Developing an advanced carbon regeneration system for sustainable large-scale water treatment.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="research">
+          <img src="https://picsum.photos/seed/lithium/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">University of Bath</span>
+            <h3>Sustainability Assessment of Lithium Mining in the Atacama Desert</h3>
+            <p>Evaluating environmental, social, and governance trade-offs of lithium extraction in the global energy transition.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="research">
+          <img src="https://picsum.photos/seed/biobutanol/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">University of Bath</span>
+            <h3>Advanced Bio-Butanol Production From Corn Stover</h3>
+            <p>Designing a full-scale biochemical process for sustainable ABE fermentation.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="research">
+          <img src="https://picsum.photos/seed/plastic/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">University of Bath</span>
+            <h3>Optimizing Plastic Waste Recovery at Skelmersdale Recycling Plant</h3>
+            <p>Streamlining processes and communication workflows to improve plastic recovery outcomes.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="research">
+          <img src="https://picsum.photos/seed/carbonblack/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Covenant University</span>
+            <h3>Utilization of Nigerian Carbon Black-Based Formulations in Printing Ink and Shoe Polish Production</h3>
+            <p>Investigating circular-economy innovation through local carbon black applications.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="research">
+          <img src="https://picsum.photos/seed/sugar/600/400" alt="Project" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Covenant University</span>
+            <h3>Production Design for 100 Tonnes/Day of Sugar from Sugar Cane</h3>
+            <p>Designing a sustainable, large-scale sugar production process.</p>
+            <a href="#" class="card-link">View Project &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="load-more-container" style="text-align: center; margin-top: 3rem;">
+        <button id="load-more-btn" class="btn secondary">Load More</button>
       </div>
     </section>
 
     <section id="writing" class="section">
       <div class="section-header">
         <h2>Featured Writing</h2>
-        <p>Essays and analyses on sustainability, energy, policy, and the systems shaping Africa's development.</p>
+        <p>Essays and analyses on sustainability, energy, policy, and the systems that shape Africa and global development.</p>
+        <p style="font-size: 0.95rem; margin-top: 0.5rem; color: var(--text-secondary);">View all writing here: <a href="#" style="text-decoration: underline; color: var(--text-primary);">Muckrack</a>. As seen on: <a href="#" style="text-decoration: underline; color: var(--text-primary);">Susinsight</a>, <a href="#" style="text-decoration: underline; color: var(--text-primary);">Susbridge</a>, and <a href="#" style="text-decoration: underline; color: var(--text-primary);">Medium</a>.</p>
+        <div class="filter-pills">
+          <button class="filter-pill active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="environment">Environment</button>
+          <button class="filter-pill" data-filter="energy">Energy</button>
+          <button class="filter-pill" data-filter="policy">Policy</button>
+        </div>
       </div>
-      <div class="grid">
-        <div class="card">
+      <div class="grid" id="writing-grid">
+        <!-- Environment -->
+        <div class="card" data-category="environment">
           <img src="https://picsum.photos/seed/bamboo/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
           <div class="card-content">
-            <h3>The Climate Case for Bamboo Is Clear. So, Why Isn’t the Money Moving?</h3>
+            <span class="tag">Environment & Resilience</span>
+            <h3>The Climate Case for Bamboo Is Clear. So Why Isn’t the Money Moving?</h3>
             <p>Bamboo is cheap, fast-growing, and carbon-rich. Cameroon has a national strategy and active pilot projects, but unlocking scale will take more than potential.</p>
             <a href="#" class="card-link">Read here &rarr;</a>
           </div>
         </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/esg/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
-          <div class="card-content">
-            <h3>What Global ESG Frameworks Miss About Local African Realities</h3>
-            <p>From boardrooms to village markets, ESG frameworks often clash with daily realities that don’t fit into global scorecards.</p>
-            <a href="#" class="card-link">Read here &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
+        <div class="card" data-category="environment">
           <img src="https://picsum.photos/seed/pollution/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
           <div class="card-content">
+            <span class="tag">Environment & Resilience</span>
             <h3>Who Will Keep Paying the Price for Polluted Air?</h3>
             <p>Despite contributing the least to global emissions, vulnerable communities face worsening air pollution, rising deaths, and economic devastation—who will act?</p>
             <a href="#" class="card-link">Read here &rarr;</a>
           </div>
         </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/mobility/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
-          <div class="card-content">
-            <h3>E-Mobility for the Many, Not the Few</h3>
-            <p>What strategies can Africa adopt to make e-mobility affordable and accessible while bridging the gap in urban transportation for underserved communities?</p>
-            <a href="#" class="card-link">Read here &rarr;</a>
-          </div>
-        </div>
-        <div class="card">
+        <div class="card" data-category="environment">
           <img src="https://picsum.photos/seed/coral/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
           <div class="card-content">
+            <span class="tag">Environment & Resilience</span>
             <h3>Why Your Choice of Sunscreen Could Save Coral Reefs</h3>
             <p>Just as your choice of sunscreen shields your skin, it can also protect the vibrant life beneath the waves.</p>
             <a href="#" class="card-link">Read here &rarr;</a>
           </div>
         </div>
-        <div class="card">
+        <div class="card" data-category="environment">
+          <img src="https://picsum.photos/seed/flood/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Environment & Resilience</span>
+            <h3>Navigating Nigeria's Growing Flood Crisis</h3>
+            <p>Nigeria’s worsening flood crisis has displaced 1.4 million people, highlighting urgent needs for infrastructure, health, and disaster preparedness.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="environment">
+          <img src="https://picsum.photos/seed/climate/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Environment & Resilience</span>
+            <h3>The Rising Force of African Climate Solutions</h3>
+            <p>Across energy, farming, and waste, communities are building low-carbon systems that improve daily life.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Energy -->
+        <div class="card" data-category="energy">
+          <img src="https://picsum.photos/seed/mobility/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Energy & Climate Systems</span>
+            <h3>E-Mobility for the Many, Not the Few</h3>
+            <p>What strategies can Africa adopt to make e-mobility affordable and accessible while bridging the gap in urban transportation for underserved communities?</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="energy">
+          <img src="https://picsum.photos/seed/solar/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Energy & Climate Systems</span>
+            <h3>When Solar Savings Come at Others' Expense</h3>
+            <p>Exploring the hidden costs and trade-offs of solar energy adoption.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="energy">
+          <img src="https://picsum.photos/seed/renewable/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Energy & Climate Systems</span>
+            <h3>Why Relying Solely on Renewable Energy Without Smarter Demand Management is Risky</h3>
+            <p>Understanding the balance between clean generation and efficient consumption.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="energy">
+          <img src="https://picsum.photos/seed/propane/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Energy & Climate Systems</span>
+            <h3>How Propane Vehicles Are Quietly Changing the Way We Drive</h3>
+            <p>Cleaner air, cheaper fuel, and smoother rides are convincing more people that propane deserves a place on the road.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="energy">
+          <img src="https://picsum.photos/seed/mystery/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Energy & Climate Systems</span>
+            <h3>Revealing Energy's Next Great Mystery</h3>
+            <p>The next chapter in energy innovation isn't just about generation—it's about unlocking efficiencies we've long overlooked.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="energy">
+          <img src="https://picsum.photos/seed/transition/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Energy & Climate Systems</span>
+            <h3>Nigeria's Energy Transition Could Redefine What Work Looks Like</h3>
+            <p>The shift from fossil fuels to renewables may cost oil jobs but could create thousands more in clean energy.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="energy">
+          <img src="https://picsum.photos/seed/jobs/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Energy & Climate Systems</span>
+            <h3>As Oil Jobs Decline, Nigerians Look to Renewables for Hope</h3>
+            <p>Solar and wind energy promise to create thousands of new livelihoods.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Policy -->
+        <div class="card" data-category="policy">
+          <img src="https://picsum.photos/seed/esg/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Policy, Regulation & ESG</span>
+            <h3>What Global ESG Frameworks Miss About Local African Realities</h3>
+            <p>From boardrooms to village markets, ESG frameworks often clash with daily realities that don’t fit into global scorecards.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="policy">
           <img src="https://picsum.photos/seed/carbon/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
           <div class="card-content">
+            <span class="tag">Policy, Regulation & ESG</span>
             <h3>How New Carbon Regulations Will Impact African Businesses</h3>
             <p>Exports will take a hit, costs will rise, and investors are already looking elsewhere—ignoring these carbon rules isn’t an option.</p>
             <a href="#" class="card-link">Read here &rarr;</a>
           </div>
         </div>
+        <div class="card" data-category="policy">
+          <img src="https://picsum.photos/seed/sdg/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Policy, Regulation & ESG</span>
+            <h3>Can Sustainability Reporting Drive SDGs?</h3>
+            <p>Sustainability reporting often mentions SDGs, yet many reports lack measurable benchmarks and transparency, hindering progress toward these global goals.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+        <div class="card" data-category="policy">
+          <img src="https://picsum.photos/seed/telecom/600/400" alt="Writing" class="card-img" referrerPolicy="no-referrer">
+          <div class="card-content">
+            <span class="tag">Policy, Regulation & ESG</span>
+            <h3>Navigating ESG in Nigerian Telecoms</h3>
+            <p>This article explores how Nigerian telecom companies can tackle ESG challenges through effective strategies for energy efficiency, waste management, and inclusivity.</p>
+            <a href="#" class="card-link">Read here &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <div class="load-more-container" style="text-align: center; margin-top: 3rem;">
+        <button id="load-more-writing-btn" class="btn secondary">Load More</button>
       </div>
     </section>
 
@@ -157,7 +402,7 @@
       <div class="section-header">
         <h2>Speaking</h2>
         <p>Talk Topics I Cover:</p>
-        <ul style="list-style: disc; margin-left: 1.5rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+        <ul class="topics-list">
           <li>Practical sustainability for African contexts.</li>
           <li>Research-to-strategy translation.</li>
           <li>Systems thinking in environmental policy.</li>
@@ -167,7 +412,7 @@
       </div>
       
       <h3 style="margin-top: 2rem; margin-bottom: 2rem;">Featured Engagements:</h3>
-      <div class="grid">
+      <div class="grid grid-2">
         <div class="card">
           <img src="https://picsum.photos/seed/speak1/600/400" alt="Speaking Engagement" class="card-img" referrerPolicy="no-referrer">
           <div class="card-content">
