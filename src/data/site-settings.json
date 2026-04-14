@@ -1,0 +1,58 @@
+{
+  "site_title": "Adetoro Adetayo | Sustainability and Impact Strategist",
+  "nav_brand": "Adetoro Adetayo",
+  "contact": {
+    "email": "torotayo@gmail.com"
+  },
+  "hero": {
+    "headline": "Driving Impact through Sustainability Research, Advisory, and Strategic Communications.",
+    "subtitle": "I'm a sustainability and impact strategist helping organizations navigate environmental and social challenges with clarity and rigor. I work at the intersection of research, advisory, and communications to turn insight into real-world impact.",
+    "cta_learn_more": "Learn more",
+    "cta_contact": "Contact me",
+    "image": "/hero.jpg",
+    "image_alt": "Adetoro Adetayo"
+  },
+  "projects_section": {
+    "heading": "Featured Work",
+    "description": "Research, strategy, and communications work across energy, policy, and sustainability in Africa and beyond.",
+    "filters": [
+      { "label": "All", "value": "all" },
+      { "label": "Advisory", "value": "advisory" },
+      { "label": "Communications", "value": "communications" },
+      { "label": "Research", "value": "research" }
+    ]
+  },
+  "writing_section": {
+    "heading": "Featured Writing",
+    "description": "Essays and analyses on sustainability, energy, policy, and the systems that shape Africa and global development.",
+    "muckrack_url": "https://muckrack.com/adetoro-adetayo",
+    "susinsight_url": "https://susinsight.com",
+    "susbridge_url": "https://susbridge.xyz",
+    "medium_url": "https://medium.com/@toroadetayo",
+    "filters": [
+      { "label": "All", "value": "all" },
+      { "label": "Environment", "value": "environment" },
+      { "label": "Energy", "value": "energy" },
+      { "label": "Policy", "value": "policy" }
+    ]
+  },
+  "speaking_section": {
+    "heading": "Speaking",
+    "topics_intro": "Talk Topics I Cover:",
+    "engagements_heading": "Featured Engagements:",
+    "cta_email": "Invite Me To Speak"
+  },
+  "footer": {
+    "heading": "Let's Connect",
+    "body": "If you're looking for strategic insight grounded in systems thinking, research that holds weight, or a partner who connects technical depth with real-world application, I'd love to hear from you.",
+    "social_links": [
+      { "label": "Email", "url": "mailto:torotayo@gmail.com", "external": false },
+      { "label": "LinkedIn", "url": "#", "external": true },
+      { "label": "Twitter/X", "url": "#", "external": true },
+      { "label": "Instagram", "url": "#", "external": true },
+      { "label": "Medium", "url": "#", "external": true },
+      { "label": "Substack", "url": "https://susinsight.substack.com", "external": true },
+      { "label": "Github", "url": "https://github.com/torotayo", "external": true }
+    ]
+  }
+}

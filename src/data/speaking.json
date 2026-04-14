@@ -1,0 +1,28 @@
+{
+  "talk_topics": [
+    "Practical sustainability for African contexts.",
+    "Research-to-strategy translation.",
+    "Systems thinking in environmental policy.",
+    "Building sustainability knowledge infrastructure."
+  ],
+  "engagements": [
+    {
+      "date_tag": "April 2026",
+      "title": "Advancing Systems Thinking for SDG Implementation",
+      "host": "UN SDSN Youth Nigeria Masterclass",
+      "description": "In a masterclass hosted by the United Nations Sustainable Development Solutions Network (UN SDSN) Youth Nigeria as part of the SDGs Advocate Programme, I shared practical insights on how to apply systems thinking to real-world challenges, understand the interconnections between the SDGs, and design more effective, grounded solutions within local contexts.",
+      "image": "https://picsum.photos/seed/speak1/600/400",
+      "link_label": "Watch Recording",
+      "url": "#"
+    },
+    {
+      "date_tag": "December 2024",
+      "title": "Accelerating the SDGs",
+      "host": "SPE LASU Student Chapter Webinar",
+      "description": "In a webinar hosted by the Society of Petroleum Engineers Lagos State University (SPE LASU) Student Chapter, I shared my insights on how can we create inclusive and equitable solutions, what does advancing sustainability mean for Africa today and how can youth-driven efforts spark meaningful change in our communities?",
+      "image": "https://picsum.photos/seed/speak2/600/400",
+      "link_label": "Watch Recording",
+      "url": "#"
+    }
+  ]
+}
