@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
-  // Project card links with data-drawer-target
+  // Delegated click handler for drawers, learn-more, close buttons
   document.addEventListener('click', (e) => {
     const trigger = e.target.closest('[data-drawer-target]');
     if (trigger) {
@@ -44,19 +44,17 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Close buttons inside drawers
+    if (e.target.closest('#learn-more-btn') || e.target.closest('#info-btn')) {
+      e.preventDefault();
+      openDrawerById('info-drawer');
+      return;
+    }
+
     if (e.target.closest('.drawer-close-btn')) {
       closeAllDrawers();
       return;
     }
   });
-
-  // Info / Learn More nav buttons (static in HTML, open info-drawer)
-  const infoBtn = document.getElementById('info-btn');
-  if (infoBtn) infoBtn.addEventListener('click', (e) => { e.preventDefault(); openDrawerById('info-drawer'); });
-
-  const learnMoreBtn = document.getElementById('learn-more-btn');
-  if (learnMoreBtn) learnMoreBtn.addEventListener('click', (e) => { e.preventDefault(); openDrawerById('info-drawer'); });
 
   // Overlay click closes all drawers
   overlay.addEventListener('click', closeAllDrawers);
@@ -110,7 +108,14 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    if (filterPills.length > 0 && cards.length > 0) {
+    if (cards.length > 0) {
+      if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', () => {
+          isExpanded = !isExpanded;
+          updateGrid();
+        });
+      }
+
       filterPills.forEach(pill => {
         pill.addEventListener('click', () => {
           filterPills.forEach(p => p.classList.remove('active'));
@@ -120,13 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
           updateGrid();
         });
       });
-
-      if (loadMoreBtn) {
-        loadMoreBtn.addEventListener('click', () => {
-          isExpanded = !isExpanded;
-          updateGrid();
-        });
-      }
 
       updateGrid();
     }
