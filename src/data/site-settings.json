@@ -14,12 +14,24 @@
   },
   "projects_section": {
     "heading": "Featured Work",
-    "description": "Research, strategy, and communications work across energy, policy, and sustainability in Africa and beyond.",
+    "description": "Research, advisory, and communications work, spanning energy systems, sustainability strategy, policy analysis, and knowledge infrastructure across Africa and beyond.",
     "filters": [
-      { "label": "All", "value": "all" },
-      { "label": "Advisory", "value": "advisory" },
-      { "label": "Communications", "value": "communications" },
-      { "label": "Research", "value": "research" }
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Advisory",
+        "value": "advisory"
+      },
+      {
+        "label": "Communications",
+        "value": "communications"
+      },
+      {
+        "label": "Research",
+        "value": "research"
+      }
     ]
   },
   "writing_section": {
@@ -30,10 +42,22 @@
     "susbridge_url": "https://susbridge.xyz",
     "medium_url": "https://medium.com/@toroadetayo",
     "filters": [
-      { "label": "All", "value": "all" },
-      { "label": "Environment", "value": "environment" },
-      { "label": "Energy", "value": "energy" },
-      { "label": "Policy", "value": "policy" }
+      {
+        "label": "All",
+        "value": "all"
+      },
+      {
+        "label": "Environment",
+        "value": "environment"
+      },
+      {
+        "label": "Energy",
+        "value": "energy"
+      },
+      {
+        "label": "Policy",
+        "value": "policy"
+      }
     ]
   },
   "speaking_section": {
@@ -46,13 +70,41 @@
     "heading": "Let's Connect",
     "body": "If you're looking for strategic insight grounded in systems thinking, research that holds weight, or a partner who connects technical depth with real-world application, I'd love to hear from you.",
     "social_links": [
-      { "label": "Email", "url": "mailto:torotayo@gmail.com", "external": false },
-      { "label": "LinkedIn", "url": "#", "external": true },
-      { "label": "Twitter/X", "url": "#", "external": true },
-      { "label": "Instagram", "url": "#", "external": true },
-      { "label": "Medium", "url": "#", "external": true },
-      { "label": "Substack", "url": "https://susinsight.substack.com", "external": true },
-      { "label": "Github", "url": "https://github.com/torotayo", "external": true }
+      {
+        "label": "Email",
+        "url": "mailto:torotayo@gmail.com",
+        "external": false
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/toroadetayo",
+        "external": true
+      },
+      {
+        "label": "Twitter/X",
+        "url": "https://x.com/toroadetayo",
+        "external": true
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/toroadetayo",
+        "external": true
+      },
+      {
+        "label": "Medium",
+        "url": "https://medium.com/@toroadetayo",
+        "external": true
+      },
+      {
+        "label": "Substack",
+        "url": "https://susinsight.substack.com",
+        "external": true
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/torotayo",
+        "external": true
+      }
     ]
   }
 }
