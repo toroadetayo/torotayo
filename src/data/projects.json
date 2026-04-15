@@ -297,17 +297,6 @@
     },
     {
       "draft": false,
-      "id": "susdata",
-      "category": "advisory",
-      "tag": "Susbridge & Susinsight",
-      "title": "Susdata",
-      "description": "Building a data hub to track and interpret sustainability performance across Africa's key sectors.",
-      "image": "/project-susdata.jpg",
-      "link_type": "external",
-      "url": "https://susinsight.com/data"
-    },
-    {
-      "draft": false,
       "id": "ar",
       "category": "advisory",
       "tag": "The AR Initiative",
@@ -355,6 +344,17 @@
           "Editorial Communication"
         ]
       }
+    },
+    {
+      "draft": false,
+      "id": "susdata",
+      "category": "advisory",
+      "tag": "Susbridge & Susinsight",
+      "title": "Susdata",
+      "description": "Building a data hub to track and interpret sustainability performance across Africa's key sectors.",
+      "image": "/project-susdata.jpg",
+      "link_type": "external",
+      "url": "https://susinsight.com/data"
     },
     {
       "draft": false,
