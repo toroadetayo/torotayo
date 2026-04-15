@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: torotayo/torotayo  # ← UPDATE: your GitHub username/repo
+  repo: tomiabe/torotayo
   branch: main
-  base_url: https://YOUR_VERCEL_DOMAIN.vercel.app  # ← UPDATE: your Vercel production URL
+  base_url: https://torotayo.vercel.app
   auth_endpoint: api/auth
 
 media_folder: public

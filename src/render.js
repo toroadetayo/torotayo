@@ -1,3 +1,4 @@
+import './interactions.js';
 import siteSettings from './data/site-settings.json';
 import projects from './data/projects.json';
 import writing from './data/writing.json';
