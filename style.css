@@ -494,7 +494,7 @@ a:hover {
 
 .card-img-side {
   width: 280px;
-  height: 280px;
+  align-self: stretch;
   object-fit: cover;
   object-position: center top;
   flex-shrink: 0;
