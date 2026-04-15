@@ -493,7 +493,7 @@ a:hover {
 }
 
 .card-img-side {
-  width: 280px;
+  width: 350px;
   align-self: stretch;
   object-fit: cover;
   object-position: center top;
@@ -509,7 +509,7 @@ a:hover {
 
   .card-img-side {
     width: 100%;
-    height: 220px;
+    height: 350px;
     border-radius: 1rem 1rem 0 0;
     border-right: none;
     border-bottom: 1px solid var(--card-border);
