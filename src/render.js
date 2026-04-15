@@ -210,8 +210,8 @@ function renderSpeaking(data, s) {
   const ss = s.speaking_section;
   const topicsHtml = data.talk_topics.map(t => `<li>${t}</li>`).join('');
   const engagementsHtml = data.engagements.map(e => `
-    <div class="card">
-      <img src="${e.image}" alt="Speaking Engagement" class="card-img" referrerPolicy="no-referrer">
+    <div class="card card-horizontal">
+      <img src="${e.image}" alt="Speaking Engagement" class="card-img-side" referrerPolicy="no-referrer">
       <div class="card-content">
         <span class="tag">${e.date_tag}</span>
         <h3>${e.title}</h3>
@@ -229,7 +229,7 @@ function renderSpeaking(data, s) {
       <a href="mailto:${s.contact.email}" class="btn secondary" style="display:inline-block;width:fit-content;">${ss.cta_email}</a>
     </div>
     <h3 style="margin-top:2rem;margin-bottom:2rem;">${ss.engagements_heading}</h3>
-    <div class="grid grid-2">${engagementsHtml}</div>`;
+    <div class="speaking-grid">${engagementsHtml}</div>`;
 }
 
 // ── Footer ────────────────────────────────────────────────────────────────────
