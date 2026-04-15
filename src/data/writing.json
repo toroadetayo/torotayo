@@ -102,6 +102,26 @@
     },
     {
       "draft": false,
+      "category": "policy",
+      "tag": "Policy, Regulation & ESG",
+      "title": "Can Sustainability Reporting Drive SDGs?",
+      "description": "Sustainability reporting often mentions SDGs, yet many reports lack measurable benchmarks and transparency, hindering progress toward these global goals.",
+      "image": "/Project-report.jpg",
+      "url": "https://medium.com/@toroadetayo/does-sustainability-reporting-ensure-progress-in-reaching-the-sdgs-ff850e3c793a",
+      "link_label": "Read here"
+    },
+    {
+      "draft": false,
+      "category": "policy",
+      "tag": "Policy, Regulation & ESG",
+      "title": "Navigating ESG in Nigerian Telecoms",
+      "description": "This article explores how Nigerian telecom companies can tackle ESG challenges through effective strategies for energy efficiency, waste management, and inclusivity.",
+      "image": "/Nigerian-cityscape-with-towers.jpg",
+      "url": "https://medium.com/@toroadetayo/addressing-esg-challenges-in-nigerian-telecom-companies-through-sustainability-integration-c646eb34b524",
+      "link_label": "Read here"
+    },
+    {
+      "draft": false,
       "category": "energy",
       "tag": "Energy & Climate Systems",
       "title": "Revealing Energy's Next Great Mystery",
@@ -128,26 +148,6 @@
       "description": "Solar and wind energy promise to create thousands of new livelihoods.",
       "image": "/nigeria--oil--engineers--building--renewable-energ.jpg",
       "url": "https://medium.com/@toroadetayo/as-oil-jobs-decline-nigerians-look-to-renewables-for-hope-7869f8569023",
-      "link_label": "Read here"
-    },
-    {
-      "draft": false,
-      "category": "policy",
-      "tag": "Policy, Regulation & ESG",
-      "title": "Can Sustainability Reporting Drive SDGs?",
-      "description": "Sustainability reporting often mentions SDGs, yet many reports lack measurable benchmarks and transparency, hindering progress toward these global goals.",
-      "image": "/Project-report.jpg",
-      "url": "https://medium.com/@toroadetayo/does-sustainability-reporting-ensure-progress-in-reaching-the-sdgs-ff850e3c793a",
-      "link_label": "Read here"
-    },
-    {
-      "draft": false,
-      "category": "policy",
-      "tag": "Policy, Regulation & ESG",
-      "title": "Navigating ESG in Nigerian Telecoms",
-      "description": "This article explores how Nigerian telecom companies can tackle ESG challenges through effective strategies for energy efficiency, waste management, and inclusivity.",
-      "image": "/Nigerian-cityscape-with-towers.jpg",
-      "url": "https://medium.com/@toroadetayo/addressing-esg-challenges-in-nigerian-telecom-companies-through-sustainability-integration-c646eb34b524",
       "link_label": "Read here"
     },
     {
