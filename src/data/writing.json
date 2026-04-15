@@ -22,6 +22,46 @@
     },
     {
       "draft": false,
+      "category": "energy",
+      "tag": "Energy & Climate Systems",
+      "title": "E-Mobility for the Many, Not the Few",
+      "description": "What strategies can Africa adopt to make e-mobility affordable and accessible while bridging the gap in urban transportation for underserved communities?",
+      "image": "/e-mobility-for-the-many-not-the-few.jpg",
+      "url": "https://susinsight.com/e-mobility-for-the-many-not-the-few/",
+      "link_label": "Read here"
+    },
+    {
+      "draft": false,
+      "category": "energy",
+      "tag": "Energy & Climate Systems",
+      "title": "When Solar Savings Come at Others' Expense",
+      "description": "Exploring the hidden costs and trade-offs of solar energy adoption.",
+      "image": "/a-cross-section-illustration-showing-three-layers-.jpg",
+      "url": "https://medium.com/@toroadetayo/when-solar-savings-come-at-others-expense-475338c126ee",
+      "link_label": "Read here"
+    },
+    {
+      "draft": false,
+      "category": "policy",
+      "tag": "Policy, Regulation & ESG",
+      "title": "What Global ESG Frameworks Miss About Local African Realities",
+      "description": "From boardrooms to village markets, ESG frameworks often clash with daily realities that don't fit into global scorecards.",
+      "image": "/Frame-214-1-scaled.jpg",
+      "url": "https://susinsight.com/esg-africa-global-standards/",
+      "link_label": "Read here"
+    },
+    {
+      "draft": false,
+      "category": "policy",
+      "tag": "Policy, Regulation & ESG",
+      "title": "How New Carbon Regulations Will Impact African Businesses",
+      "description": "Exports will take a hit, costs will rise, and investors are already looking elsewhere—ignoring these carbon rules isn't an option.",
+      "image": "/carbon-regs.jpg",
+      "url": "https://susbridge.xyz/how-new-carbon-regulations-will-impact-african-businesses/",
+      "link_label": "Read here"
+    },
+    {
+      "draft": false,
       "category": "environment",
       "tag": "Environment & Resilience",
       "title": "Why Your Choice of Sunscreen Could Save Coral Reefs",
@@ -48,26 +88,6 @@
       "description": "Across energy, farming, and waste, communities are building low-carbon systems that improve daily life.",
       "image": "/0_qVbPDWJ775Im4QET.webp",
       "url": "https://medium.com/@toroadetayo/the-rising-force-of-african-climate-solutions-5eb0070445c8",
-      "link_label": "Read here"
-    },
-    {
-      "draft": false,
-      "category": "energy",
-      "tag": "Energy & Climate Systems",
-      "title": "E-Mobility for the Many, Not the Few",
-      "description": "What strategies can Africa adopt to make e-mobility affordable and accessible while bridging the gap in urban transportation for underserved communities?",
-      "image": "/e-mobility-for-the-many-not-the-few.jpg",
-      "url": "https://susinsight.com/e-mobility-for-the-many-not-the-few/",
-      "link_label": "Read here"
-    },
-    {
-      "draft": false,
-      "category": "energy",
-      "tag": "Energy & Climate Systems",
-      "title": "When Solar Savings Come at Others' Expense",
-      "description": "Exploring the hidden costs and trade-offs of solar energy adoption.",
-      "image": "/a-cross-section-illustration-showing-three-layers-.jpg",
-      "url": "https://medium.com/@toroadetayo/when-solar-savings-come-at-others-expense-475338c126ee",
       "link_label": "Read here"
     },
     {
@@ -118,26 +138,6 @@
       "description": "Solar and wind energy promise to create thousands of new livelihoods.",
       "image": "/nigeria--oil--engineers--building--renewable-energ.jpg",
       "url": "https://medium.com/@toroadetayo/as-oil-jobs-decline-nigerians-look-to-renewables-for-hope-7869f8569023",
-      "link_label": "Read here"
-    },
-    {
-      "draft": false,
-      "category": "policy",
-      "tag": "Policy, Regulation & ESG",
-      "title": "What Global ESG Frameworks Miss About Local African Realities",
-      "description": "From boardrooms to village markets, ESG frameworks often clash with daily realities that don't fit into global scorecards.",
-      "image": "/Frame-214-1-scaled.jpg",
-      "url": "https://susinsight.com/esg-africa-global-standards/",
-      "link_label": "Read here"
-    },
-    {
-      "draft": false,
-      "category": "policy",
-      "tag": "Policy, Regulation & ESG",
-      "title": "How New Carbon Regulations Will Impact African Businesses",
-      "description": "Exports will take a hit, costs will rise, and investors are already looking elsewhere—ignoring these carbon rules isn't an option.",
-      "image": "/carbon-regs.jpg",
-      "url": "https://susbridge.xyz/how-new-carbon-regulations-will-impact-african-businesses/",
       "link_label": "Read here"
     },
     {
