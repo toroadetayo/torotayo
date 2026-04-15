@@ -18,32 +18,41 @@ export default async function handler(req, res) {
     if (tokenData.error) {
       res.status(400).send(`
         <script>
-          window.opener.postMessage(
-            'authorization:github:error:${JSON.stringify(tokenData)}',
-            window.location.origin
-          );
-          window.close();
+          (function () {
+            const message = 'authorization:github:error:${JSON.stringify(tokenData)}';
+            if (window.opener) {
+              window.opener.postMessage(message, '*');
+            }
+            // Give the message loop a tick before closing.
+            setTimeout(function () { window.close(); }, 100);
+          })();
         </script>`);
       return;
     }
 
     res.send(`
       <script>
-        const token = ${JSON.stringify(tokenData.access_token)};
-        window.opener.postMessage(
-          'authorization:github:success:' + JSON.stringify({ token, provider: 'github' }),
-          window.location.origin
-        );
-        window.close();
+        (function () {
+          const token = ${JSON.stringify(tokenData.access_token)};
+          const message = 'authorization:github:success:' + JSON.stringify({ token, provider: 'github' });
+          if (window.opener) {
+            window.opener.postMessage(message, '*');
+          }
+          // Give the message loop a tick before closing.
+          setTimeout(function () { window.close(); }, 100);
+        })();
       </script>`);
   } catch (err) {
     res.status(500).send(`
       <script>
-        window.opener.postMessage(
-          'authorization:github:error:' + ${JSON.stringify(err.message)},
-          window.location.origin
-        );
-        window.close();
+        (function () {
+          const message = 'authorization:github:error:' + ${JSON.stringify(err.message)};
+          if (window.opener) {
+            window.opener.postMessage(message, '*');
+          }
+          // Give the message loop a tick before closing.
+          setTimeout(function () { window.close(); }, 100);
+        })();
       </script>`);
   }
 }
