@@ -275,6 +275,28 @@
     },
     {
       "draft": false,
+      "id": "newsletter",
+      "category": "communications",
+      "tag": "Susinsight",
+      "title": "Susinsight Newsletter",
+      "description": "Co-creating an editorial strategy that makes sustainability accessible and people-centered.",
+      "image": "/project-susinsight.jpg",
+      "link_type": "external",
+      "url": "https://susinsight.substack.com"
+    },
+    {
+      "draft": false,
+      "id": "susgraph",
+      "category": "communications",
+      "tag": "Susinsight",
+      "title": "Susgraph",
+      "description": "Transforming sustainability metrics into engaging visual storytelling and infographics.",
+      "image": "/project-susgraph.jpg",
+      "link_type": "external",
+      "url": "https://www.pinterest.com/susinsight/susgraph/"
+    },
+    {
+      "draft": false,
       "id": "susdata",
       "category": "advisory",
       "tag": "Susbridge & Susinsight",
@@ -336,17 +358,6 @@
     },
     {
       "draft": false,
-      "id": "newsletter",
-      "category": "communications",
-      "tag": "Susinsight",
-      "title": "Susinsight Newsletter",
-      "description": "Co-creating an editorial strategy that makes sustainability accessible and people-centered.",
-      "image": "/project-susinsight.jpg",
-      "link_type": "external",
-      "url": "https://susinsight.substack.com"
-    },
-    {
-      "draft": false,
       "id": "trends",
       "category": "communications",
       "tag": "Susinsight",
@@ -355,17 +366,6 @@
       "image": "/project-trends.jpg",
       "link_type": "external",
       "url": "https://susinsight.com/2025-trends"
-    },
-    {
-      "draft": false,
-      "id": "susgraph",
-      "category": "communications",
-      "tag": "Susinsight",
-      "title": "Susgraph",
-      "description": "Transforming sustainability metrics into engaging visual storytelling and infographics.",
-      "image": "/project-susgraph.jpg",
-      "link_type": "external",
-      "url": "https://www.pinterest.com/susinsight/susgraph/"
     },
     {
       "draft": false,
