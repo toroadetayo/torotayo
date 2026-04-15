@@ -8,8 +8,6 @@ backend:
 media_folder: public
 public_folder: /
 
-publish_mode: editorial_workflow
-
 collections:
 
   # ── SITE SETTINGS ─────────────────────────────────────────────────────────
