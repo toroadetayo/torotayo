@@ -114,6 +114,7 @@ content:
         type: object
         list: true
         fields:
+          - { name: draft, label: "Draft (hide from live site)", type: boolean }
           - { name: id, label: "ID / Slug (no spaces, e.g. culerson)", type: string }
           - name: category
             label: Category
@@ -181,6 +182,7 @@ content:
         type: object
         list: true
         fields:
+          - { name: draft, label: "Draft (hide from live site)", type: boolean }
           - name: category
             label: Category
             type: select
@@ -212,6 +214,7 @@ content:
         type: object
         list: true
         fields:
+          - { name: draft, label: "Draft (hide from live site)", type: boolean }
           - { name: date_tag, label: "Date Tag (e.g. April 2026)", type: string }
           - { name: title, label: "Talk Title", type: string }
           - { name: host, label: "Host / Event Name", type: string }

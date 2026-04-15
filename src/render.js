@@ -209,7 +209,7 @@ function renderSpeaking(data, s) {
   if (!el) return;
   const ss = s.speaking_section;
   const topicsHtml = data.talk_topics.map(t => `<li>${t}</li>`).join('');
-  const engagementsHtml = data.engagements.map(e => `
+  const engagementsHtml = data.engagements.filter(e => !e.draft).map(e => `
     <div class="card card-horizontal">
       <img src="${e.image}" alt="Speaking Engagement" class="card-img-side" referrerPolicy="no-referrer">
       <div class="card-content">
@@ -267,7 +267,7 @@ renderFooter(siteSettings);
 const projectsGrid = document.getElementById('projects-grid');
 const drawersMount = document.getElementById('drawers-mount');
 
-projects.forEach(p => {
+projects.filter(p => !p.draft).forEach(p => {
   projectsGrid.insertAdjacentHTML('beforeend', renderProjectCard(p));
   if (p.link_type === 'drawer' && p.drawer) {
     drawersMount.insertAdjacentHTML('beforeend', renderDrawer(p));
@@ -277,4 +277,4 @@ projects.forEach(p => {
 drawersMount.insertAdjacentHTML('beforeend', renderInfoDrawer(info));
 
 const writingGrid = document.getElementById('writing-grid');
-writing.forEach(w => writingGrid.insertAdjacentHTML('beforeend', renderWritingCard(w)));
+writing.filter(w => !w.draft).forEach(w => writingGrid.insertAdjacentHTML('beforeend', renderWritingCard(w)));
