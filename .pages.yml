@@ -1,0 +1,221 @@
+media:
+  input: public
+  output: /
+
+content:
+  # ── SITE SETTINGS ──────────────────────────────────────────────────────────
+  - name: site_settings
+    label: "Site Settings"
+    type: file
+    path: src/data/site-settings.json
+    format: json
+    fields:
+      - { name: site_title, label: "Site Title (browser tab)", type: string }
+      - { name: nav_brand, label: "Nav Brand Name", type: string }
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: email, label: "Email Address", type: string }
+      - name: hero
+        label: "Hero Section"
+        type: object
+        fields:
+          - { name: headline, label: Headline, type: text }
+          - { name: subtitle, label: Subtitle, type: text }
+          - { name: cta_learn_more, label: "Learn More Button Label", type: string }
+          - { name: cta_contact, label: "Contact Button Label", type: string }
+          - { name: image, label: "Hero Image", type: image }
+          - { name: image_alt, label: "Hero Image Alt Text", type: string }
+      - name: projects_section
+        label: "Projects Section"
+        type: object
+        fields:
+          - { name: heading, label: "Section Heading", type: string }
+          - { name: description, label: "Section Description", type: text }
+          - name: filters
+            label: "Filter Pills"
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: value, label: "Value (lowercase, no spaces)", type: string }
+      - name: writing_section
+        label: "Writing Section"
+        type: object
+        fields:
+          - { name: heading, label: "Section Heading", type: string }
+          - { name: description, label: "Section Description", type: text }
+          - { name: muckrack_url, label: "Muckrack Profile URL", type: string }
+          - { name: susinsight_url, label: "Susinsight URL", type: string }
+          - { name: susbridge_url, label: "Susbridge URL", type: string }
+          - { name: medium_url, label: "Medium URL", type: string }
+          - name: filters
+            label: "Filter Pills"
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: value, label: "Value (lowercase, no spaces)", type: string }
+      - name: speaking_section
+        label: "Speaking Section"
+        type: object
+        fields:
+          - { name: heading, label: "Section Heading", type: string }
+          - { name: topics_intro, label: "Topics Intro Text", type: string }
+          - { name: engagements_heading, label: "Engagements Sub-heading", type: string }
+          - { name: cta_email, label: "Invite to Speak Button Label", type: string }
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: body, label: "Body Text", type: text }
+          - name: social_links
+            label: "Social Links"
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: url, label: URL, type: string }
+              - { name: external, label: "Open in new tab", type: boolean }
+
+  # ── INFO / ABOUT ────────────────────────────────────────────────────────────
+  - name: info
+    label: "Info / About"
+    type: file
+    path: src/data/info.json
+    format: json
+    fields:
+      - { name: lead, label: "Lead Sentence", type: text }
+      - name: paragraphs
+        label: "Body Paragraphs"
+        type: string
+        list: true
+      - { name: drives_heading, label: '"What Drives This Work" Heading', type: string }
+      - { name: drives_body, label: '"What Drives This Work" Body (supports [link](url) syntax)', type: text }
+      - { name: beyond_heading, label: '"Beyond the Work" Heading', type: string }
+      - { name: beyond_body, label: '"Beyond the Work" Body (supports [link](url) syntax)', type: text }
+      - { name: affiliations_heading, label: "Affiliations Heading", type: string }
+      - name: affiliations
+        label: "Affiliations List"
+        type: string
+        list: true
+
+  # ── PROJECTS ────────────────────────────────────────────────────────────────
+  - name: projects
+    label: Projects
+    type: file
+    path: src/data/projects.json
+    format: json
+    fields:
+      - name: projects
+        label: Projects
+        type: object
+        list: true
+        fields:
+          - { name: id, label: "ID / Slug (no spaces, e.g. culerson)", type: string }
+          - name: category
+            label: Category
+            type: select
+            options:
+              values:
+                - { value: advisory, label: Advisory }
+                - { value: communications, label: Communications }
+                - { value: research, label: Research }
+          - { name: tag, label: "Card Tag Label", type: string }
+          - { name: title, label: "Card Title", type: string }
+          - { name: description, label: "Card Short Description", type: text }
+          - { name: image, label: "Card Image", type: image }
+          - name: link_type
+            label: "Link Type"
+            type: select
+            options:
+              values:
+                - { value: drawer, label: "Opens drawer (internal detail)" }
+                - { value: external, label: "External URL" }
+          - { name: url, label: "External URL", type: string, required: false }
+          - { name: drawer_id, label: "Drawer ID (e.g. culerson-drawer)", type: string, required: false }
+          - name: drawer
+            label: "Drawer Content"
+            type: object
+            required: false
+            fields:
+              - { name: subtitle, label: "Drawer Subtitle", type: text }
+              - name: meta
+                label: "Meta Fields (Role, Year, Location etc.)"
+                type: object
+                list: true
+                fields:
+                  - { name: label, label: Label, type: string }
+                  - { name: value, label: Value, type: string }
+              - { name: visit_link, label: "Visit Link URL (optional)", type: string, required: false }
+              - name: body
+                label: "Body Content (Markdown)"
+                type: rich-text
+                options:
+                  format: markdown
+              - name: resource
+                label: "Resource Box (optional)"
+                type: object
+                required: false
+                fields:
+                  - { name: heading, label: "Box Heading", type: string }
+                  - { name: description, label: "Description (optional)", type: string, required: false }
+                  - { name: url, label: URL, type: string }
+                  - { name: button_label, label: "Button Label", type: string }
+              - name: skills
+                label: "Skills / Tools"
+                type: string
+                list: true
+
+  # ── WRITING ─────────────────────────────────────────────────────────────────
+  - name: writing
+    label: Writing
+    type: file
+    path: src/data/writing.json
+    format: json
+    fields:
+      - name: writing
+        label: "Writing Entries"
+        type: object
+        list: true
+        fields:
+          - name: category
+            label: Category
+            type: select
+            options:
+              values:
+                - { value: environment, label: Environment }
+                - { value: energy, label: "Energy & Climate" }
+                - { value: policy, label: "Policy & ESG" }
+          - { name: tag, label: "Tag Label", type: string }
+          - { name: title, label: Title, type: string }
+          - { name: description, label: "Short Description", type: text }
+          - { name: image, label: "Card Image", type: image }
+          - { name: url, label: "Article URL", type: string }
+          - { name: link_label, label: "Link Button Label", type: string }
+
+  # ── SPEAKING ────────────────────────────────────────────────────────────────
+  - name: speaking
+    label: Speaking
+    type: file
+    path: src/data/speaking.json
+    format: json
+    fields:
+      - name: talk_topics
+        label: "Talk Topics"
+        type: string
+        list: true
+      - name: engagements
+        label: "Speaking Engagements"
+        type: object
+        list: true
+        fields:
+          - { name: date_tag, label: "Date Tag (e.g. April 2026)", type: string }
+          - { name: title, label: "Talk Title", type: string }
+          - { name: host, label: "Host / Event Name", type: string }
+          - { name: description, label: Description, type: text }
+          - { name: image, label: Image, type: image }
+          - { name: link_label, label: "Link Button Label", type: string }
+          - { name: url, label: URL, type: string }

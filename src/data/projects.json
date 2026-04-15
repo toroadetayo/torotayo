@@ -1,4 +1,4 @@
-[
+{"projects": [
   {
     "id": "culerson",
     "category": "advisory",
@@ -399,4 +399,4 @@
       "skills": ["Mass & Energy Balancing", "Process Design & Modelling", "Equipment Sizing", "Heat Integration", "Techno-Economic Evaluation", "Environmental Assessment"]
     }
   }
-]
+]}

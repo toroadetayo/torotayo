@@ -1,9 +1,12 @@
 import './interactions.js';
 import siteSettings from './data/site-settings.json';
-import projects from './data/projects.json';
-import writing from './data/writing.json';
+import projectsData from './data/projects.json';
+import writingData from './data/writing.json';
 import speaking from './data/speaking.json';
 import info from './data/info.json';
+
+const projects = projectsData.projects;
+const writing = writingData.writing;
 
 // ── Markdown renderer (lightweight, no dependency) ───────────────────────────
 // Converts the subset of Markdown used in drawer body fields to HTML.
