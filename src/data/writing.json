@@ -82,16 +82,6 @@
     },
     {
       "draft": false,
-      "category": "environment",
-      "tag": "Environment & Resilience",
-      "title": "The Rising Force of African Climate Solutions",
-      "description": "Across energy, farming, and waste, communities are building low-carbon systems that improve daily life.",
-      "image": "/0_qVbPDWJ775Im4QET.webp",
-      "url": "https://medium.com/@toroadetayo/the-rising-force-of-african-climate-solutions-5eb0070445c8",
-      "link_label": "Read here"
-    },
-    {
-      "draft": false,
       "category": "energy",
       "tag": "Energy & Climate Systems",
       "title": "Why Relying Solely on Renewable Energy Without Smarter Demand Management is Risky",
@@ -158,6 +148,16 @@
       "description": "This article explores how Nigerian telecom companies can tackle ESG challenges through effective strategies for energy efficiency, waste management, and inclusivity.",
       "image": "/Nigerian-cityscape-with-towers.jpg",
       "url": "https://medium.com/@toroadetayo/addressing-esg-challenges-in-nigerian-telecom-companies-through-sustainability-integration-c646eb34b524",
+      "link_label": "Read here"
+    },
+    {
+      "draft": false,
+      "category": "environment",
+      "tag": "Environment & Resilience",
+      "title": "The Rising Force of African Climate Solutions",
+      "description": "Across energy, farming, and waste, communities are building low-carbon systems that improve daily life.",
+      "image": "/0_qVbPDWJ775Im4QET.webp",
+      "url": "https://medium.com/@toroadetayo/the-rising-force-of-african-climate-solutions-5eb0070445c8",
       "link_label": "Read here"
     }
   ]
