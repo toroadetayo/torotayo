@@ -99,7 +99,7 @@ function renderWritingHeader(s) {
 function renderProjectCard(p) {
   let linkHtml;
   if (p.link_type === 'drawer') {
-    linkHtml = `<a href="#" class="card-link" id="${p.id}" data-drawer-target="${p.drawer_id}">View Project &rarr;</a>`;
+    linkHtml = `<a href="/${p.id}" class="card-link" id="${p.id}" data-drawer-target="${p.drawer_id}">View Project &rarr;</a>`;
   } else {
     linkHtml = `<a href="${p.url}" class="card-link" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>`;
   }
