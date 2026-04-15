@@ -234,6 +234,47 @@
     },
     {
       "draft": false,
+      "id": "transport",
+      "category": "research",
+      "tag": "University of Bath",
+      "title": "Life Cycle Assessment of Car Transport in Nigeria",
+      "description": "Evaluating the environmental impacts of diesel and petrol vehicles within Nigeria's transport ecosystem.",
+      "image": "/project-lca-car.jpg",
+      "link_type": "drawer",
+      "drawer_id": "car-transport-lca-drawer",
+      "drawer": {
+        "subtitle": "Evaluating the environmental impacts of diesel and petrol vehicles within Nigeria's transport ecosystem.",
+        "meta": [
+          {
+            "label": "Project Type",
+            "value": "Graduate Research Project"
+          },
+          {
+            "label": "Year",
+            "value": "2020"
+          },
+          {
+            "label": "Institution",
+            "value": "University of Bath (UK)"
+          }
+        ],
+        "body": "## Context\n\nNigeria's transportation sector is overwhelmingly dependent on fossil fuels, making it a major contributor to air pollution and greenhouse gas emissions. With a rapidly growing population and tens of thousands of new vehicles entering the market each year, understanding the environmental burden of petrol and diesel cars has become essential.\n\nThis project applied Lifecycle Assessment (LCA) to compare the cradle-to-grave environmental impacts of diesel and petrol vehicles in Nigeria—spanning vehicle manufacturing, fuel production, and real-world operation.\n\n## Research Objectives\n\n1. **Build a Comprehensive Impact Inventory**\n\n  Developed an extensive dataset detailing:\n  - Emissions from fuel extraction and refining\n  - Vehicle manufacturing impacts\n  - Operational emissions from diesel and petrol engines\n  - Resource consumption and energy use across the lifecycle\n2. **Compare Diesel vs. Petrol Vehicle Impacts**\n\n  Performed a rigorous LCA comparing both vehicle types based on:\n  - Greenhouse gas emissions\n  - Air pollutants\n  - Energy demand\n  - Overall ecological footprint\n\n   The analysis followed ISO 14044:2006 standards to ensure methodological rigor.\n\n## Key Findings\n\n1. **Diesel Vehicles**\n  - More fuel-efficient than petrol cars\n  - Higher emissions of harmful pollutants\n  - Greater overall greenhouse gas impact in the Nigerian context\n2. **Petrol Vehicles**\n  - Lower overall emissions intensity\n  - Still significant contributors to Nigeria's transport-sector pollution\n\n## Overall Insight\n\nDespite efficiency advantages, diesel vehicles were shown to have larger environmental burdens, highlighting the need for cleaner alternatives such as natural gas, propane, hybrid systems, or electric mobility (where feasible).\n\n## Implications for Nigeria\n\nThe findings provide valuable insights for:\n\n- Government agencies: informing policy on fuel standards and emissions regulation\n- Transport companies: guiding fleet transition strategies\n- Automotive manufacturers and importers: supporting cleaner vehicle portfolios\n- Researchers and sustainability planners: enabling evidence-based decision-making\n\nThe report emphasizes the importance of shifting away from traditional petroleum fuels to align with global climate goals and Nigeria's sustainability ambitions.",
+        "resource": {
+          "heading": "Access the Full Report",
+          "url": "https://medium.com/@toroadetayo/assessing-nigerias-auto-emissions-impact-f274a49c9523",
+          "button_label": "Read Full Report"
+        },
+        "skills": [
+          "Lifecycle Assessment (LCA)",
+          "ISO 14044 Standards",
+          "Emissions Analysis",
+          "Comparative Environmental Assessment",
+          "Research & Technical Writing"
+        ]
+      }
+    },
+    {
+      "draft": false,
       "id": "susdata",
       "category": "advisory",
       "tag": "Susbridge & Susinsight",
@@ -373,47 +414,6 @@
           "Agricultural Development",
           "Sustainability Research",
           "Data Synthesis"
-        ]
-      }
-    },
-    {
-      "draft": false,
-      "id": "transport",
-      "category": "research",
-      "tag": "University of Bath",
-      "title": "Life Cycle Assessment of Car Transport in Nigeria",
-      "description": "Evaluating the environmental impacts of diesel and petrol vehicles within Nigeria's transport ecosystem.",
-      "image": "/project-lca-car.jpg",
-      "link_type": "drawer",
-      "drawer_id": "car-transport-lca-drawer",
-      "drawer": {
-        "subtitle": "Evaluating the environmental impacts of diesel and petrol vehicles within Nigeria's transport ecosystem.",
-        "meta": [
-          {
-            "label": "Project Type",
-            "value": "Graduate Research Project"
-          },
-          {
-            "label": "Year",
-            "value": "2020"
-          },
-          {
-            "label": "Institution",
-            "value": "University of Bath (UK)"
-          }
-        ],
-        "body": "## Context\n\nNigeria's transportation sector is overwhelmingly dependent on fossil fuels, making it a major contributor to air pollution and greenhouse gas emissions. With a rapidly growing population and tens of thousands of new vehicles entering the market each year, understanding the environmental burden of petrol and diesel cars has become essential.\n\nThis project applied Lifecycle Assessment (LCA) to compare the cradle-to-grave environmental impacts of diesel and petrol vehicles in Nigeria—spanning vehicle manufacturing, fuel production, and real-world operation.\n\n## Research Objectives\n\n1. **Build a Comprehensive Impact Inventory**\n\n  Developed an extensive dataset detailing:\n  - Emissions from fuel extraction and refining\n  - Vehicle manufacturing impacts\n  - Operational emissions from diesel and petrol engines\n  - Resource consumption and energy use across the lifecycle\n2. **Compare Diesel vs. Petrol Vehicle Impacts**\n\n  Performed a rigorous LCA comparing both vehicle types based on:\n  - Greenhouse gas emissions\n  - Air pollutants\n  - Energy demand\n  - Overall ecological footprint\n\n   The analysis followed ISO 14044:2006 standards to ensure methodological rigor.\n\n## Key Findings\n\n1. **Diesel Vehicles**\n  - More fuel-efficient than petrol cars\n  - Higher emissions of harmful pollutants\n  - Greater overall greenhouse gas impact in the Nigerian context\n2. **Petrol Vehicles**\n  - Lower overall emissions intensity\n  - Still significant contributors to Nigeria's transport-sector pollution\n\n## Overall Insight\n\nDespite efficiency advantages, diesel vehicles were shown to have larger environmental burdens, highlighting the need for cleaner alternatives such as natural gas, propane, hybrid systems, or electric mobility (where feasible).\n\n## Implications for Nigeria\n\nThe findings provide valuable insights for:\n\n- Government agencies: informing policy on fuel standards and emissions regulation\n- Transport companies: guiding fleet transition strategies\n- Automotive manufacturers and importers: supporting cleaner vehicle portfolios\n- Researchers and sustainability planners: enabling evidence-based decision-making\n\nThe report emphasizes the importance of shifting away from traditional petroleum fuels to align with global climate goals and Nigeria's sustainability ambitions.",
-        "resource": {
-          "heading": "Access the Full Report",
-          "url": "https://medium.com/@toroadetayo/assessing-nigerias-auto-emissions-impact-f274a49c9523",
-          "button_label": "Read Full Report"
-        },
-        "skills": [
-          "Lifecycle Assessment (LCA)",
-          "ISO 14044 Standards",
-          "Emissions Analysis",
-          "Comparative Environmental Assessment",
-          "Research & Technical Writing"
         ]
       }
     },
