@@ -47,6 +47,59 @@
     },
     {
       "draft": false,
+      "id": "susinsight",
+      "category": "communications",
+      "tag": "Susbridge",
+      "title": "Susinsight",
+      "description": "A research-driven media platform advancing sustainability understanding across Africa.",
+      "image": "/project-susinsight.jpg",
+      "link_type": "drawer",
+      "drawer_id": "susinsight-drawer",
+      "drawer": {
+        "subtitle": "Advancing clarity, insight, and contextual storytelling on sustainability issues across Africa.",
+        "meta": [
+          {
+            "label": "Role",
+            "value": "Co-Publisher & Editor"
+          },
+          {
+            "label": "Type",
+            "value": "Co-Founder / Ongoing Leadership"
+          },
+          {
+            "label": "Duration",
+            "value": "2023 — Present"
+          },
+          {
+            "label": "Location",
+            "value": "Remote (Africa-wide)"
+          }
+        ],
+        "visit_link": "https://susinsight.com",
+        "body": "## Context\n\nSusinsight is a research-driven sustainability media platform reporting on the intersection of development, climate, culture, business, identity, and policy across Africa. In a landscape where sustainability conversations are often fragmented, jargon-heavy, or disconnected from local realities, Susinsight fills a critical gap: it translates complexity into clarity.\n\nAs Co-Publisher and Editor, I shape the platform's editorial vision, build systems that support research-based storytelling, and ensure that every publication is insightful, context-aware, and accessible. I co-lead the growth of the platform from contributor network development to editorial frameworks, strategy, and long-term sustainability.\n\n## What I Did\n\n1. **Editorial Strategy & Research-Led Story Development**\n  - Set the editorial direction and thematic priorities across sustainability, climate, energy, business, culture, and public policy.\n  - Build research methodologies that convert complex issues into structured, insight-driven stories.\n  - Guide deep dives, analyses, explainers, and newsletters anchored in evidence and contextual accuracy.\n2. **End-to-End Content Management & Quality Assurance**\n  - Oversee the entire publication workflow: ideation, research, editing, verification, design, and release.\n  - Develop content frameworks that maintain consistency, strengthen insight quality, and uphold editorial integrity.\n  - Implement multi-layer editing processes ensuring accuracy, clarity, and narrative strength.\n3. **Contributor Network Building & Mentorship**\n  - Recruit and manage a diverse network of writers and researchers across Africa.\n  - Provide editorial guidance that helps contributors develop stronger analytical and storytelling skills.\n  - Create structured contributor pathways, pitch systems, and feedback loops that improve output quality.\n4. **Platform Infrastructure & Workflow Design**\n  - Build editorial systems: weekly planning cycles, content categorization, SEO-guided strategy, and thematic scheduling.\n  - Establish workflow tools improving collaboration, communication, and turnaround time.\n  - Ensure operational consistency while supporting creativity and journalist autonomy.\n5. **Visibility, Distribution & Community Engagement**\n  - Shape Susinsight's public narrative through newsletters, visuals, social storytelling, and audience engagement.\n  - Strengthen platform presence across key sustainability conversations in Africa.\n  - Support partnership development with professionals, institutions, and organizations in the sustainability ecosystem.\n\n## Impact\n\nMy leadership has guided Susinsight's evolution from a passion-driven idea into a structured, insight-focused sustainability platform. I developed stronger editorial processes, built a contributor ecosystem, and established clear research and storytelling standards that ensure clarity, accuracy, and objectivity.\n\nThrough this framework, the platform now maintains a pipeline of over 150 research-driven publications and has gained increased visibility within sustainability and development conversations. Contributors are equipped to produce nuanced African narratives, and audiences engage with accessible, evidence-based reporting that deepens understanding of the continent's environmental and socio-economic challenges.",
+        "resource": {
+          "heading": "View commissioned work on Susinsight",
+          "description": "I commission and edit research-driven stories that link climate, economy, and social transformation across Africa",
+          "url": "https://susinsight.com/author/torotayo",
+          "button_label": "Read Articles"
+        },
+        "skills": [
+          "Sustainability Journalism",
+          "Editorial Strategy",
+          "Research & Insight Development",
+          "Content Systems Design",
+          "Cross-Functional Collaboration",
+          "Writing & Editing",
+          "Narrative Development",
+          "Stakeholder & Contributor Engagement",
+          "Platform Growth & Distribution Strategy",
+          "Search Engine Optimization",
+          "Generative Engine Optimization"
+        ]
+      }
+    },
+    {
+      "draft": false,
       "id": "culerson",
       "category": "advisory",
       "tag": "Culerson",
@@ -194,59 +247,6 @@
           "Data Visualization",
           "Report Writing",
           "Editorial Communication"
-        ]
-      }
-    },
-    {
-      "draft": false,
-      "id": "susinsight",
-      "category": "communications",
-      "tag": "Susbridge",
-      "title": "Susinsight",
-      "description": "A research-driven media platform advancing sustainability understanding across Africa.",
-      "image": "/project-susinsight.jpg",
-      "link_type": "drawer",
-      "drawer_id": "susinsight-drawer",
-      "drawer": {
-        "subtitle": "Advancing clarity, insight, and contextual storytelling on sustainability issues across Africa.",
-        "meta": [
-          {
-            "label": "Role",
-            "value": "Co-Publisher & Editor"
-          },
-          {
-            "label": "Type",
-            "value": "Co-Founder / Ongoing Leadership"
-          },
-          {
-            "label": "Duration",
-            "value": "2023 — Present"
-          },
-          {
-            "label": "Location",
-            "value": "Remote (Africa-wide)"
-          }
-        ],
-        "visit_link": "https://susinsight.com",
-        "body": "## Context\n\nSusinsight is a research-driven sustainability media platform reporting on the intersection of development, climate, culture, business, identity, and policy across Africa. In a landscape where sustainability conversations are often fragmented, jargon-heavy, or disconnected from local realities, Susinsight fills a critical gap: it translates complexity into clarity.\n\nAs Co-Publisher and Editor, I shape the platform's editorial vision, build systems that support research-based storytelling, and ensure that every publication is insightful, context-aware, and accessible. I co-lead the growth of the platform from contributor network development to editorial frameworks, strategy, and long-term sustainability.\n\n## What I Did\n\n1. **Editorial Strategy & Research-Led Story Development**\n  - Set the editorial direction and thematic priorities across sustainability, climate, energy, business, culture, and public policy.\n  - Build research methodologies that convert complex issues into structured, insight-driven stories.\n  - Guide deep dives, analyses, explainers, and newsletters anchored in evidence and contextual accuracy.\n2. **End-to-End Content Management & Quality Assurance**\n  - Oversee the entire publication workflow: ideation, research, editing, verification, design, and release.\n  - Develop content frameworks that maintain consistency, strengthen insight quality, and uphold editorial integrity.\n  - Implement multi-layer editing processes ensuring accuracy, clarity, and narrative strength.\n3. **Contributor Network Building & Mentorship**\n  - Recruit and manage a diverse network of writers and researchers across Africa.\n  - Provide editorial guidance that helps contributors develop stronger analytical and storytelling skills.\n  - Create structured contributor pathways, pitch systems, and feedback loops that improve output quality.\n4. **Platform Infrastructure & Workflow Design**\n  - Build editorial systems: weekly planning cycles, content categorization, SEO-guided strategy, and thematic scheduling.\n  - Establish workflow tools improving collaboration, communication, and turnaround time.\n  - Ensure operational consistency while supporting creativity and journalist autonomy.\n5. **Visibility, Distribution & Community Engagement**\n  - Shape Susinsight's public narrative through newsletters, visuals, social storytelling, and audience engagement.\n  - Strengthen platform presence across key sustainability conversations in Africa.\n  - Support partnership development with professionals, institutions, and organizations in the sustainability ecosystem.\n\n## Impact\n\nMy leadership has guided Susinsight's evolution from a passion-driven idea into a structured, insight-focused sustainability platform. I developed stronger editorial processes, built a contributor ecosystem, and established clear research and storytelling standards that ensure clarity, accuracy, and objectivity.\n\nThrough this framework, the platform now maintains a pipeline of over 150 research-driven publications and has gained increased visibility within sustainability and development conversations. Contributors are equipped to produce nuanced African narratives, and audiences engage with accessible, evidence-based reporting that deepens understanding of the continent's environmental and socio-economic challenges.",
-        "resource": {
-          "heading": "View commissioned work on Susinsight",
-          "description": "I commission and edit research-driven stories that link climate, economy, and social transformation across Africa",
-          "url": "https://susinsight.com/author/torotayo",
-          "button_label": "Read Articles"
-        },
-        "skills": [
-          "Sustainability Journalism",
-          "Editorial Strategy",
-          "Research & Insight Development",
-          "Content Systems Design",
-          "Cross-Functional Collaboration",
-          "Writing & Editing",
-          "Narrative Development",
-          "Stakeholder & Contributor Engagement",
-          "Platform Growth & Distribution Strategy",
-          "Search Engine Optimization",
-          "Generative Engine Optimization"
         ]
       }
     },
