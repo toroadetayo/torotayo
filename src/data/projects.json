@@ -5,7 +5,7 @@
     "tag": "Culerson",
     "title": "Culerson Energy Futures Project",
     "description": "Advising on sustainable energy transitions through research and communications strategy.",
-    "image": "https://picsum.photos/seed/culerson/600/400",
+    "image": "/project-culerson.jpg",
     "link_type": "drawer",
     "drawer_id": "culerson-drawer",
     "drawer": {
@@ -33,7 +33,7 @@
     "tag": "Susbridge & Susinsight",
     "title": "Susdata",
     "description": "Building a data hub to track and interpret sustainability performance across Africa's key sectors.",
-    "image": "https://picsum.photos/seed/susdata/600/400",
+    "image": "/project-susdata.jpg",
     "link_type": "external",
     "url": "https://susinsight.com/data"
   },
@@ -43,7 +43,7 @@
     "tag": "Kumat Services",
     "title": "Kumat Services – Sustainable Energy Research",
     "description": "Delivered technical research and strategic insights on clean energy, battery safety, and alternative fuels.",
-    "image": "https://picsum.photos/seed/kumat/600/400",
+    "image": "/project-kumat.jpg",
     "link_type": "drawer",
     "drawer_id": "kumat-drawer",
     "drawer": {
@@ -66,7 +66,7 @@
     "tag": "The AR Initiative",
     "title": "The AR Initiative – ESG & Impact Consulting",
     "description": "Supported African startups with ESG research, sustainability reporting, and impact assessments.",
-    "image": "https://picsum.photos/seed/arinitiative/600/400",
+    "image": "/project-ar-initiative.jpg",
     "link_type": "drawer",
     "drawer_id": "ar-drawer",
     "drawer": {
@@ -94,7 +94,7 @@
     "tag": "Susbridge",
     "title": "Susinsight",
     "description": "A research-driven media platform advancing sustainability understanding across Africa.",
-    "image": "https://picsum.photos/seed/susinsight/600/400",
+    "image": "/project-susinsight.jpg",
     "link_type": "drawer",
     "drawer_id": "susinsight-drawer",
     "drawer": {
@@ -122,7 +122,7 @@
     "tag": "Susinsight",
     "title": "Susinsight Newsletter",
     "description": "Co-creating an editorial strategy that makes sustainability accessible and people-centered.",
-    "image": "https://picsum.photos/seed/newsletter/600/400",
+    "image": "/project-susinsight.jpg",
     "link_type": "external",
     "url": "https://susinsight.substack.com"
   },
@@ -132,7 +132,7 @@
     "tag": "Susinsight",
     "title": "Top Sustainability Trends to Watch in Africa for 2025",
     "description": "Analyzing 20+ emerging shifts shaping Africa's sustainability landscape.",
-    "image": "https://picsum.photos/seed/trends/600/400",
+    "image": "/project-trends.jpg",
     "link_type": "external",
     "url": "https://susinsight.com/2025-trends"
   },
@@ -142,7 +142,7 @@
     "tag": "Susinsight",
     "title": "Susgraph",
     "description": "Transforming sustainability metrics into engaging visual storytelling and infographics.",
-    "image": "https://picsum.photos/seed/susgraph/600/400",
+    "image": "/project-susgraph.jpg",
     "link_type": "external",
     "url": "https://www.pinterest.com/susinsight/susgraph/"
   },
@@ -152,7 +152,7 @@
     "tag": "Susinsight",
     "title": "Susinsight Editorial Images",
     "description": "Co-directing visual frameworks that enhance clarity and impact in research-based storytelling.",
-    "image": "https://picsum.photos/seed/editorial/600/400",
+    "image": "/project-editorial.jpg",
     "link_type": "external",
     "url": "https://www.pinterest.com/susinsight"
   },
@@ -162,7 +162,7 @@
     "tag": "Personal",
     "title": "One Acre Fund Impact Assessment",
     "description": "Impact assessment and communications project.",
-    "image": "https://picsum.photos/seed/oneacre/600/400",
+    "image": "/project-one-acre.jpg",
     "link_type": "drawer",
     "drawer_id": "one-acre-fund-drawer",
     "drawer": {
@@ -188,7 +188,7 @@
     "tag": "Susbridge",
     "title": "LCA Case Study: Sachet vs PET Bottled Water (Lagos)",
     "description": "Designing a cradle-to-grave comparative lifecycle model to inform packaging policy and urban sustainability decisions.",
-    "image": "https://picsum.photos/seed/water/600/400",
+    "image": "/project-lca-sachet.jpg",
     "link_type": "drawer",
     "drawer_id": "lca-drawer",
     "drawer": {
@@ -215,7 +215,7 @@
     "tag": "University of Bath",
     "title": "Life Cycle Assessment of Car Transport in Nigeria",
     "description": "Evaluating the environmental impacts of diesel and petrol vehicles within Nigeria's transport ecosystem.",
-    "image": "https://picsum.photos/seed/transport/600/400",
+    "image": "/project-lca-car.jpg",
     "link_type": "drawer",
     "drawer_id": "car-transport-lca-drawer",
     "drawer": {
@@ -242,7 +242,7 @@
     "tag": "University of Bath",
     "title": "Innovative Continuous Regeneration of Phenolic Resin Carbons for Water Treatment",
     "description": "Developing an advanced carbon regeneration system for sustainable large-scale water treatment.",
-    "image": "https://picsum.photos/seed/resin/600/400",
+    "image": "/project-water-treatment.jpg",
     "link_type": "drawer",
     "drawer_id": "water-treatment-drawer",
     "drawer": {
@@ -269,7 +269,7 @@
     "tag": "University of Bath",
     "title": "Sustainability Assessment of Lithium Mining in the Atacama Desert",
     "description": "Evaluating environmental, social, and governance trade-offs of lithium extraction in the global energy transition.",
-    "image": "https://picsum.photos/seed/lithium/600/400",
+    "image": "/project-lithium.jpg",
     "link_type": "drawer",
     "drawer_id": "lithium-drawer",
     "drawer": {
@@ -296,7 +296,7 @@
     "tag": "University of Bath",
     "title": "Advanced Bio-Butanol Production From Corn Stover",
     "description": "Designing a full-scale biochemical process for sustainable ABE fermentation.",
-    "image": "https://picsum.photos/seed/biobutanol/600/400",
+    "image": "/project-biobutanol.jpg",
     "link_type": "drawer",
     "drawer_id": "bio-butanol-drawer",
     "drawer": {
@@ -323,7 +323,7 @@
     "tag": "University of Bath",
     "title": "Optimizing Plastic Waste Recovery at Skelmersdale Recycling Plant",
     "description": "Streamlining processes and communication workflows to improve plastic recovery outcomes.",
-    "image": "https://picsum.photos/seed/plastic/600/400",
+    "image": "/project-plastic.jpg",
     "link_type": "drawer",
     "drawer_id": "plastic-recovery-drawer",
     "drawer": {
@@ -350,7 +350,7 @@
     "tag": "Covenant University",
     "title": "Utilization of Nigerian Carbon Black-Based Formulations in Printing Ink and Shoe Polish Production",
     "description": "Investigating circular-economy innovation through local carbon black applications.",
-    "image": "https://picsum.photos/seed/carbonblack/600/400",
+    "image": "/project-carbon-black.jpg",
     "link_type": "drawer",
     "drawer_id": "carbon-black-drawer",
     "drawer": {
@@ -377,7 +377,7 @@
     "tag": "Covenant University",
     "title": "Production Design for 100 Tonnes/Day of Sugar from Sugar Cane",
     "description": "Designing a sustainable, large-scale sugar production process.",
-    "image": "https://picsum.photos/seed/sugar/600/400",
+    "image": "/project-sugar.jpg",
     "link_type": "drawer",
     "drawer_id": "sugar-drawer",
     "drawer": {
