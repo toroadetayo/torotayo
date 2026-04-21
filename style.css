@@ -512,7 +512,9 @@ a:hover {
 .spotlight-card-live {
   border-radius: 18px;
   border: 1px solid var(--card-border);
-  background: linear-gradient(135deg, var(--card-bg), transparent), var(--bg-color);
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding: 1.5rem;
   display: grid;
   grid-template-columns: 110px 1fr;
