@@ -73,6 +73,12 @@ collections:
               - { label: Topics Intro Text, name: topics_intro, widget: string }
               - { label: Engagements Sub-heading, name: engagements_heading, widget: string }
               - { label: "Invite to Speak Button Label", name: cta_email, widget: string }
+          - label: Spotlight Section
+            name: spotlight_section
+            widget: object
+            fields:
+              - { label: Section Heading, name: heading, widget: string }
+              - { label: Section Description, name: description, widget: text }
           - label: Footer
             name: footer
             widget: object
@@ -235,3 +241,24 @@ collections:
               - { label: Image, name: image, widget: image }
               - { label: Link Button Label, name: link_label, widget: string, default: "Watch Recording" }
               - { label: URL, name: url, widget: string }
+
+  # ── SPOTLIGHT ─────────────────────────────────────────────────────────────
+  - name: spotlight
+    label: In The Spotlight
+    files:
+      - name: spotlight
+        label: "Spotlight Entries"
+        file: src/data/spotlights.json
+        fields:
+          - label: Entries
+            name: entries
+            widget: list
+            label_singular: Entry
+            fields:
+              - { label: Draft (hide from live site), name: draft, widget: boolean, default: false }
+              - { label: Platform Name, name: platform, widget: string }
+              - { label: Feature Title, name: title, widget: string }
+              - { label: Short Description, name: description, widget: text }
+              - { label: Feature Image, name: image, widget: image }
+              - { label: Feature URL, name: url, widget: string }
+              - { label: Link Button Label, name: link_label, widget: string, default: "Read Interview" }

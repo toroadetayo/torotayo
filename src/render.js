@@ -3,10 +3,12 @@ import siteSettings from './data/site-settings.json';
 import projectsData from './data/projects.json';
 import writingData from './data/writing.json';
 import speaking from './data/speaking.json';
+import spotlightsData from './data/spotlights.json';
 import info from './data/info.json';
 
 const projects = projectsData.projects;
 const writing = writingData.writing;
+const spotlights = spotlightsData.entries;
 
 // ── Markdown renderer (lightweight, no dependency) ───────────────────────────
 // Converts the subset of Markdown used in drawer body fields to HTML.
@@ -232,6 +234,30 @@ function renderSpeaking(data, s) {
     <div class="speaking-grid">${engagementsHtml}</div>`;
 }
 
+// ── Spotlight section ────────────────────────────────────────────────────────
+function renderSpotlights(data, s) {
+  const el = document.getElementById('spotlight-mount');
+  if (!el) return;
+  const ss = s.spotlight_section || {};
+  const cardsHtml = data.filter(item => !item.draft).map(item => `
+    <article class="spotlight-card-live">
+      <img src="${item.image}" alt="${item.platform}" class="spotlight-card-image" referrerPolicy="no-referrer">
+      <div class="spotlight-card-content">
+        <span class="spotlight-card-platform">${item.platform}</span>
+        <h3>${item.title}</h3>
+        <p>${item.description}</p>
+        <a href="${item.url}" class="btn secondary spotlight-card-link" target="_blank" rel="noopener noreferrer">${item.link_label || 'Read Feature'}</a>
+      </div>
+    </article>`).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <h2>${ss.heading || 'In The Spotlight'}</h2>
+      <p>${ss.description || 'Highlights from interviews, profiles, and features.'}</p>
+    </div>
+    <div class="spotlight-grid-live">${cardsHtml}</div>`;
+}
+
 // ── Footer ────────────────────────────────────────────────────────────────────
 function renderFooter(s) {
   const el = document.getElementById('footer-mount');
@@ -262,6 +288,7 @@ renderHero(siteSettings);
 renderProjectsHeader(siteSettings);
 renderWritingHeader(siteSettings);
 renderSpeaking(speaking, siteSettings);
+renderSpotlights(spotlights, siteSettings);
 renderFooter(siteSettings);
 
 const projectsGrid = document.getElementById('projects-grid');

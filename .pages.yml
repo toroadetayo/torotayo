@@ -65,6 +65,12 @@ content:
           - { name: topics_intro, label: "Topics Intro Text", type: string }
           - { name: engagements_heading, label: "Engagements Sub-heading", type: string }
           - { name: cta_email, label: "Invite to Speak Button Label", type: string }
+      - name: spotlight_section
+        label: "Spotlight Section"
+        type: object
+        fields:
+          - { name: heading, label: "Section Heading", type: string }
+          - { name: description, label: "Section Description", type: text }
       - name: footer
         label: Footer
         type: object
@@ -222,3 +228,23 @@ content:
           - { name: image, label: Image, type: image }
           - { name: link_label, label: "Link Button Label", type: string }
           - { name: url, label: URL, type: string }
+
+  # ── SPOTLIGHT ───────────────────────────────────────────────────────────────
+  - name: spotlight
+    label: "In The Spotlight"
+    type: file
+    path: src/data/spotlights.json
+    format: json
+    fields:
+      - name: entries
+        label: "Spotlight Entries"
+        type: object
+        list: true
+        fields:
+          - { name: draft, label: "Draft (hide from live site)", type: boolean }
+          - { name: platform, label: "Platform Name", type: string }
+          - { name: title, label: "Feature Title", type: string }
+          - { name: description, label: "Short Description", type: text }
+          - { name: image, label: "Feature Image", type: image }
+          - { name: url, label: "Feature URL", type: string }
+          - { name: link_label, label: "Link Button Label", type: string }

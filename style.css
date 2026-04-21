@@ -502,6 +502,56 @@ a:hover {
   border-right: 1px solid var(--card-border);
 }
 
+/* Spotlight section */
+.spotlight-grid-live {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.spotlight-card-live {
+  border-radius: 18px;
+  border: 1px solid var(--card-border);
+  background: linear-gradient(135deg, var(--card-bg), transparent), var(--bg-color);
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1rem;
+}
+
+.spotlight-card-image {
+  width: 110px;
+  height: 110px;
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+  object-fit: cover;
+  object-position: center;
+}
+
+.spotlight-card-content {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.spotlight-card-platform {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.spotlight-card-content p {
+  margin-bottom: 0;
+}
+
+.spotlight-card-link {
+  margin-top: 0.25rem;
+  width: fit-content;
+}
+
 @media (max-width: 768px) {
   .card.card-horizontal {
     flex-direction: column;
@@ -513,6 +563,14 @@ a:hover {
     border-radius: 1rem 1rem 0 0;
     border-right: none;
     border-bottom: 1px solid var(--card-border);
+  }
+
+  .spotlight-grid-live {
+    grid-template-columns: 1fr;
+  }
+
+  .spotlight-card-live {
+    grid-template-columns: 110px 1fr;
   }
 }
 
