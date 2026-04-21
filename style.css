@@ -529,6 +529,13 @@ a:hover {
   display: grid;
   grid-template-columns: 110px 1fr;
   gap: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.spotlight-card-live:hover {
+  background: var(--card-hover-bg);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 .spotlight-card-image {
