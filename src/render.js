@@ -246,7 +246,7 @@ function renderSpotlights(data, s) {
         <span class="spotlight-card-platform">${item.platform}</span>
         <h3>${item.title}</h3>
         <p>${item.description}</p>
-        <a href="${item.url}" class="btn secondary spotlight-card-link" target="_blank" rel="noopener noreferrer">${item.link_label || 'Read Feature'}</a>
+        <a href="${item.url}" class="card-link spotlight-card-link" target="_blank" rel="noopener noreferrer">${item.link_label || 'Read Feature'} &rarr;</a>
       </div>
     </article>`).join('');
 
