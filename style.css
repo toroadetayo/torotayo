@@ -129,6 +129,12 @@ a:hover {
   color: var(--text-primary);
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -416,11 +422,11 @@ a:hover {
   z-index: 1000;
   transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   overflow-y: auto;
-  box-shadow: -10px 0 30px rgba(0,0,0,0.1);
 }
 
 .drawer.active {
   right: 0;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.1);
 }
 
 .drawer-inner {
