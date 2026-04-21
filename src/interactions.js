@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // ── Theme Toggle ────────────────────────────────────────────────────────────
-  const themeToggle = document.getElementById('theme-toggle');
+  const themeToggles = document.querySelectorAll('[data-theme-toggle]');
   const html = document.documentElement;
 
   const savedTheme = localStorage.getItem('theme');
@@ -12,10 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
     html.setAttribute('data-theme', 'light');
   }
 
-  themeToggle.addEventListener('click', () => {
-    const newTheme = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-    html.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
+  themeToggles.forEach((themeToggle) => {
+    themeToggle.addEventListener('click', () => {
+      const newTheme = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
   });
 
   // ── Generic Drawer System ───────────────────────────────────────────────────

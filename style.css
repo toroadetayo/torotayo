@@ -135,6 +135,10 @@ a:hover {
   gap: 0.5rem;
 }
 
+.mobile-theme-toggle {
+  display: none;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -642,6 +646,10 @@ footer {
     display: block;
   }
 
+  .mobile-theme-toggle {
+    display: flex;
+  }
+
   .nav-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -659,6 +667,10 @@ footer {
 
   .nav-links.active {
     display: flex;
+  }
+
+  .desktop-theme-item {
+    display: none;
   }
   
   .hero {
