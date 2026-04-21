@@ -135,10 +135,6 @@ a:hover {
   gap: 0.5rem;
 }
 
-.mobile-theme-toggle {
-  display: none;
-}
-
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -174,6 +170,10 @@ a:hover {
   justify-content: center;
   transition: background 0.2s;
   color: var(--text-primary);
+}
+
+.mobile-theme-toggle {
+  display: none;
 }
 
 .theme-toggle:hover {
