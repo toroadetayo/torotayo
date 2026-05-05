@@ -2,6 +2,50 @@
   "projects": [
     {
       "draft": false,
+      "id": "abuja-carbon",
+      "category": "research",
+      "tag": "Susbridge",
+      "title": "Household Energy Carbon Accounting (Abuja)",
+      "description": "Quantifying real household electricity emissions in grid–generator hybrid systems to inform energy and climate decisions.",
+      "image": "/abuja-carbon-accounting-electricity.png",
+      "link_type": "drawer",
+      "drawer_id": "abuja-carbon-drawer",
+      "drawer": {
+        "subtitle": "Quantifying real household electricity emissions in grid–generator hybrid systems to inform energy and climate decisions.",
+        "meta": [
+          {
+            "label": "Project Type",
+            "value": "Sustainability Research & Carbon Modelling"
+          },
+          {
+            "label": "Year",
+            "value": "2026"
+          },
+          {
+            "label": "Institution",
+            "value": "Susbridge"
+          }
+        ],
+        "body": "## **Context**\n\nHousehold electricity in Abuja operates within a hybrid system—grid supply supplemented by petrol and diesel generators, with limited solar adoption. While grid unreliability is widely discussed, the **true carbon impact of this mixed energy reality remains poorly quantified**.\n\nThis project developed a **diagnostic carbon accounting model** to map electricity consumption to emissions under real-world conditions. Using feeder-level grid availability data, tariff band distributions, and internationally recognized emission factors, the study compares January 2024 and January 2025 to reveal how shifts in grid supply affect both emissions and cost.\n\n## **Research Objectives**\n\n### **1. Build a Household Carbon Accounting Model**\n\nDeveloped a bottom-up emissions model capturing grid electricity, petrol and diesel generator use, and solar inverter contributions across realistic household scenarios.\n\n### **2. Integrate Grid Reliability into Emissions Analysis**\n\nUsed AEDC feeder-level data and Nigeria’s Service-Based Tariff bands to calculate weighted grid availability and derive off-grid energy dependence.\n\n### **3. Model Scenario & Sensitivity Outcomes**\n\nConstructed conservative and mid-income household scenarios, testing how changes in grid supply, generator reliance, and energy mix affect emissions.\n\n### **4. Deliver Policy-Relevant Comparisons**\n\nProduced year-over-year analysis (Jan 2024 vs Jan 2025), including emissions, cost impacts, and percentage deltas to make system changes visible and actionable.\n\n## **Key Findings**\n\n### **1. The “Dirty Backup” Paradox**\n\n- Generators supply **~22% of household electricity** but produce **~44% of emissions**.\n- Petrol generators emit **~2.6× more CO₂ per kWh than grid electricity**.\n\n### **2. Household Emissions Profile**\n\n- Mid-income household:\n  - **338.8 kg CO₂e/month**\n  - **~4,066 kg CO₂e/year**\n- Solar contributes minimal emissions despite meaningful energy share.\n\n### **3. Grid Reliability = Climate Lever**\n\n- Grid availability increased slightly from **68.18% (2024)** to **69.06% (2025)**\n- This <1% improvement led to:\n  - **~0.56% reduction in emissions**\n  - **~2.5–3.7% reduction in electricity costs**\n\n### **4. Emissions Hotspots**\n\n- Generator use is the dominant marginal emissions driver.\n- Solar PV is **~13× cleaner than grid electricity**, making it the only true decarbonisation pathway in the mix.\n\n## **Interactive Component**\n\nThe project includes a **Scenario Studio**, allowing users to:\n\n- Adjust grid availability (Band A–E scenarios)\n- Change generator share of off-grid supply\n- Observe real-time impacts on emissions, cost, and energy mix\n\nThis transforms the model into a **decision-support tool for households, policymakers, and energy planners**.\n\n## **Overall Impact**\n\nThis project makes visible what is typically hidden in national energy statistics: **the true carbon cost of unreliable electricity systems at the household level**. It demonstrates that improving grid reliability is not just a service issue, but a direct climate intervention.\n\nBy combining rigorous carbon accounting with interactive modelling and clear communication, the work provides a scalable framework for understanding energy emissions in **grid-constrained urban environments across Africa**.",
+        "resource": {
+          "heading": "Access Full Report",
+          "url": "https://www.susbridge.xyz/abuja-carbon-accounting-electricity",
+          "button_label": "View Dashboard"
+        },
+        "skills": [
+          "Carbon Accounting (GHG Protocol-aligned)",
+          "ISO 14040/44 methodology",
+          "Energy Systems Modelling",
+          "Scenario & Sensitivity Analysis",
+          "Data Analysis (AEDC feeder data)",
+          "Emission Factor Modelling",
+          "Interactive Dashboard Design",
+          "Data Visualization & Policy Translation"
+        ]
+      }
+    },
+    {
+      "draft": false,
       "id": "urban-climate",
       "category": "research",
       "tag": "Susbridge",
