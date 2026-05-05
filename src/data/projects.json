@@ -235,49 +235,6 @@
     },
     {
       "draft": false,
-      "id": "kumat",
-      "category": "advisory",
-      "tag": "Kumat Services",
-      "title": "Kumat Services – Sustainable Energy Research",
-      "description": "Delivered technical research and strategic insights on clean energy, battery safety, and alternative fuels.",
-      "image": "/project-kumat.jpg",
-      "link_type": "drawer",
-      "drawer_id": "kumat-drawer",
-      "drawer": {
-        "subtitle": "Delivered technical research and strategic insights on clean energy, battery safety, and alternative fuels.",
-        "meta": [
-          {
-            "label": "Role",
-            "value": "Research Consultant, Sustainable Energy"
-          },
-          {
-            "label": "Type",
-            "value": "Part-Time"
-          },
-          {
-            "label": "Duration",
-            "value": "2023 — 2024"
-          },
-          {
-            "label": "Location",
-            "value": "Nigeria · Remote"
-          }
-        ],
-        "body": "## Context\n\nKUMAT Services is a Nigerian automotive service provider exploring how renewable and alternative energy technologies can reshape mobility in Nigeria. As the country begins its energy transition, KUMAT sought research support to guide strategic decisions around battery safety, alternative fuels, and clean-energy integration.\n\nI collaborated with KUMAT's research unit to deliver technical research, policy analysis, and strategic recommendations that connected global energy trends with Nigeria's local realities.\n\n## What I Did\n\n1. **Safe Storage Solutions for Lithium-Ion Batteries**\n\n  *Focus: Battery Safety | Output: Technical Report*\n  - Conducted a detailed review of thermal runaway failures in lithium-ion batteries—a major safety challenge in energy systems.\n  - Recommended containerized storage systems to contain and prevent cascading thermal incidents.\n  - Analyzed thermal characteristics and explosion safety to support next-generation storage design.\n\n   **Impact:** Enhanced KUMAT's understanding of safe storage design, contributing to improved safety standards for energy storage systems in African contexts.\n2. **Integration of Phase Change Materials (PCM) for Battery Safety**\n\n  *Focus: Advanced Materials | Output: Technical Presentation*\n  - Explored the use of Phase Change Materials (PCM) and battery encapsulation to isolate thermal incidents.\n  - Proposed a hybrid model combining passive cooling and physical containment to prevent battery explosions.\n  - Presented findings to KUMAT leadership, informing design improvements in containment technologies.\n\n   **Impact:** Positioned KUMAT as an early adopter of cutting-edge battery safety innovations within Africa's growing EV and energy storage ecosystem.\n\n   [View Presentation](https://drive.google.com/file/d/1Z-nmb4JrpBDzG9IuRJ244D-akWbZyGYk/view?usp=sharing)\n3. **Sustainable Energy Transition Challenges in Nigeria**\n\n  *Focus: Energy Policy & Market Research*\n  - Analyzed Nigeria's energy infrastructure, policy environment, and market barriers to renewable adoption.\n  - Compiled an inventory of research materials and statistical data to guide transition strategies.\n  - Proposed actionable pathways to accelerate clean-energy adoption within Nigeria's automotive industry.\n\n   **Impact:** Provided KUMAT with a strategic framework to navigate regulatory, economic, and infrastructure challenges.\n\n   [Read Report](https://drive.google.com/file/d/1uV-QKpp6HJwk6U8iKvcJSFlIQ_Er_npK/view?usp=sharing)\n4. **Employment Implications of Nigeria's Energy Transition**\n\n  *Focus: Socioeconomic Analysis*\n  - Assessed job creation potential in renewable industries versus employment risks in oil-dependent sectors.\n  - Analyzed workforce transition dynamics and skill development needs in a post-fossil economy.\n  - Developed recommendations for inclusive workforce adaptation during Nigeria's energy shift.\n\n   **Impact:** Connected economic opportunity with environmental responsibility, informing KUMAT's broader sustainability strategy.\n\n   [Read Analysis](https://medium.com/@toroadetayo/nigerias-energy-transition-could-redefine-what-work-looks-like-a978442704e5)\n5. **Advantages of Propane Gas for Vehicle Power**\n\n  *Focus: Alternative Fuels*\n  - Conducted a full economic and environmental feasibility study on propane as a vehicle fuel.\n  - Evaluated fuel efficiency, emissions data, and safety records compared to traditional gasoline.\n  - Recommended strategies for integrating propane-powered systems into KUMAT's service offerings.\n\n   **Impact:** Identified propane as a viable bridge technology toward low-emission mobility, expanding KUMAT's potential in the clean transport market.\n\n   [Read Study](https://medium.com/@toroadetayo/how-propane-vehicles-are-quietly-changing-the-way-we-drive-3ed34fcf82df)\n6. **Greenhouse Gas Mitigation Across African Countries**\n\n  *Focus: Comparative Policy Research*\n  - Analyzed GHG mitigation policies and implementation frameworks across African nations.\n  - Identified best practices and adaptable policy models for Nigeria's automotive and energy sectors.\n  - Synthesized findings to align KUMAT's objectives with continental climate goals.\n\n   **Impact:** Positioned KUMAT as a regional thought leader in automotive sustainability and climate-conscious innovation.\n\n   [Read Analysis](https://medium.com/@toroadetayo/the-rising-force-of-african-climate-solutions-5eb0070445c8)\n7. **Energy Storage Research & Publication**\n\n  *Focus: Academic Research | Output: Journal Paper (2024)*\n  - Authored a comprehensive review paper on lithium-ion battery safety and thermal management.\n  - Synthesized global research findings into actionable insights for both academic and industry audiences.\n  - Strengthened KUMAT's knowledge base in energy storage system design and innovation.\n\n   **Impact:** Contributed to academic and industrial understanding of battery safety technologies, reinforcing KUMAT's position at the forefront of sustainable energy research in Africa.\n\n   [Read Publication](https://drive.google.com/file/d/1VGhSl5J2EbbGbRvxM6GqMhhiadGlHUg1/view)\n\n## Overall Impact\n\nDuring my tenure with KUMAT, I helped guide the company's evolution toward cleaner, safer, and more sustainable energy technologies. My research bridged technical innovation with strategic decision-making—empowering KUMAT to align its automotive services with Africa's ongoing energy transition.",
-        "skills": [
-          "Research & Data Analysis",
-          "Sustainable Energy Systems",
-          "Technical Writing",
-          "Renewable Energy Policy",
-          "Environmental Analysis",
-          "Battery Safety",
-          "Alternative Fuels",
-          "Academic & Industry Reporting"
-        ]
-      }
-    },
-    {
-      "draft": false,
       "id": "water-treatment",
       "category": "research",
       "tag": "University of Bath",
@@ -316,6 +273,49 @@
           "Engineering Design",
           "Economic Analysis",
           "Environmental Impact Assessment"
+        ]
+      }
+    },
+    {
+      "draft": false,
+      "id": "kumat",
+      "category": "advisory",
+      "tag": "Kumat Services",
+      "title": "Kumat Services – Sustainable Energy Research",
+      "description": "Delivered technical research and strategic insights on clean energy, battery safety, and alternative fuels.",
+      "image": "/project-kumat.jpg",
+      "link_type": "drawer",
+      "drawer_id": "kumat-drawer",
+      "drawer": {
+        "subtitle": "Delivered technical research and strategic insights on clean energy, battery safety, and alternative fuels.",
+        "meta": [
+          {
+            "label": "Role",
+            "value": "Research Consultant, Sustainable Energy"
+          },
+          {
+            "label": "Type",
+            "value": "Part-Time"
+          },
+          {
+            "label": "Duration",
+            "value": "2023 — 2024"
+          },
+          {
+            "label": "Location",
+            "value": "Nigeria · Remote"
+          }
+        ],
+        "body": "## Context\n\nKUMAT Services is a Nigerian automotive service provider exploring how renewable and alternative energy technologies can reshape mobility in Nigeria. As the country begins its energy transition, KUMAT sought research support to guide strategic decisions around battery safety, alternative fuels, and clean-energy integration.\n\nI collaborated with KUMAT's research unit to deliver technical research, policy analysis, and strategic recommendations that connected global energy trends with Nigeria's local realities.\n\n## What I Did\n\n1. **Safe Storage Solutions for Lithium-Ion Batteries**\n\n  *Focus: Battery Safety | Output: Technical Report*\n  - Conducted a detailed review of thermal runaway failures in lithium-ion batteries—a major safety challenge in energy systems.\n  - Recommended containerized storage systems to contain and prevent cascading thermal incidents.\n  - Analyzed thermal characteristics and explosion safety to support next-generation storage design.\n\n   **Impact:** Enhanced KUMAT's understanding of safe storage design, contributing to improved safety standards for energy storage systems in African contexts.\n2. **Integration of Phase Change Materials (PCM) for Battery Safety**\n\n  *Focus: Advanced Materials | Output: Technical Presentation*\n  - Explored the use of Phase Change Materials (PCM) and battery encapsulation to isolate thermal incidents.\n  - Proposed a hybrid model combining passive cooling and physical containment to prevent battery explosions.\n  - Presented findings to KUMAT leadership, informing design improvements in containment technologies.\n\n   **Impact:** Positioned KUMAT as an early adopter of cutting-edge battery safety innovations within Africa's growing EV and energy storage ecosystem.\n\n   [View Presentation](https://drive.google.com/file/d/1Z-nmb4JrpBDzG9IuRJ244D-akWbZyGYk/view?usp=sharing)\n3. **Sustainable Energy Transition Challenges in Nigeria**\n\n  *Focus: Energy Policy & Market Research*\n  - Analyzed Nigeria's energy infrastructure, policy environment, and market barriers to renewable adoption.\n  - Compiled an inventory of research materials and statistical data to guide transition strategies.\n  - Proposed actionable pathways to accelerate clean-energy adoption within Nigeria's automotive industry.\n\n   **Impact:** Provided KUMAT with a strategic framework to navigate regulatory, economic, and infrastructure challenges.\n\n   [Read Report](https://drive.google.com/file/d/1uV-QKpp6HJwk6U8iKvcJSFlIQ_Er_npK/view?usp=sharing)\n4. **Employment Implications of Nigeria's Energy Transition**\n\n  *Focus: Socioeconomic Analysis*\n  - Assessed job creation potential in renewable industries versus employment risks in oil-dependent sectors.\n  - Analyzed workforce transition dynamics and skill development needs in a post-fossil economy.\n  - Developed recommendations for inclusive workforce adaptation during Nigeria's energy shift.\n\n   **Impact:** Connected economic opportunity with environmental responsibility, informing KUMAT's broader sustainability strategy.\n\n   [Read Analysis](https://medium.com/@toroadetayo/nigerias-energy-transition-could-redefine-what-work-looks-like-a978442704e5)\n5. **Advantages of Propane Gas for Vehicle Power**\n\n  *Focus: Alternative Fuels*\n  - Conducted a full economic and environmental feasibility study on propane as a vehicle fuel.\n  - Evaluated fuel efficiency, emissions data, and safety records compared to traditional gasoline.\n  - Recommended strategies for integrating propane-powered systems into KUMAT's service offerings.\n\n   **Impact:** Identified propane as a viable bridge technology toward low-emission mobility, expanding KUMAT's potential in the clean transport market.\n\n   [Read Study](https://medium.com/@toroadetayo/how-propane-vehicles-are-quietly-changing-the-way-we-drive-3ed34fcf82df)\n6. **Greenhouse Gas Mitigation Across African Countries**\n\n  *Focus: Comparative Policy Research*\n  - Analyzed GHG mitigation policies and implementation frameworks across African nations.\n  - Identified best practices and adaptable policy models for Nigeria's automotive and energy sectors.\n  - Synthesized findings to align KUMAT's objectives with continental climate goals.\n\n   **Impact:** Positioned KUMAT as a regional thought leader in automotive sustainability and climate-conscious innovation.\n\n   [Read Analysis](https://medium.com/@toroadetayo/the-rising-force-of-african-climate-solutions-5eb0070445c8)\n7. **Energy Storage Research & Publication**\n\n  *Focus: Academic Research | Output: Journal Paper (2024)*\n  - Authored a comprehensive review paper on lithium-ion battery safety and thermal management.\n  - Synthesized global research findings into actionable insights for both academic and industry audiences.\n  - Strengthened KUMAT's knowledge base in energy storage system design and innovation.\n\n   **Impact:** Contributed to academic and industrial understanding of battery safety technologies, reinforcing KUMAT's position at the forefront of sustainable energy research in Africa.\n\n   [Read Publication](https://drive.google.com/file/d/1VGhSl5J2EbbGbRvxM6GqMhhiadGlHUg1/view)\n\n## Overall Impact\n\nDuring my tenure with KUMAT, I helped guide the company's evolution toward cleaner, safer, and more sustainable energy technologies. My research bridged technical innovation with strategic decision-making—empowering KUMAT to align its automotive services with Africa's ongoing energy transition.",
+        "skills": [
+          "Research & Data Analysis",
+          "Sustainable Energy Systems",
+          "Technical Writing",
+          "Renewable Energy Policy",
+          "Environmental Analysis",
+          "Battery Safety",
+          "Alternative Fuels",
+          "Academic & Industry Reporting"
         ]
       }
     },
