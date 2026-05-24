@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "draft": true,
+      "draft": false,
       "platform": "Global Scholarships",
       "title": "MSc Sustainable Chemical Engineering Student Adetoro Adetayo from Nigeria Shares Her Journey of Studying at the University of Bath, United Kingdom",
       "description": "An interview on scholarship preparation, study experience, and lessons for future applicants.",
@@ -10,7 +10,7 @@
       "link_label": "Read Interview"
     },
     {
-      "draft": false,
+      "draft": true,
       "platform": "The Earth Foundation",
       "title": "Global Reviewer – The Earth Prize 2026",
       "description": "Selected as a Global Reviewer for The Earth Prize 2026, assessing youth-led environmental solutions from around the world and bringing a systems-thinking lens to evaluating impact, practicality, and scalability.",
